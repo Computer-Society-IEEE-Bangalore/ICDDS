@@ -19,8 +19,8 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <a href="https://www.freewebsitecode.com">Your Site Name</a>. All Rights Reserved<br>
-            Template By <a href="https://www.freewebsitecode.com">Dhawan Solanki</a>
+            &copy; 2022 <a href="https://www .freewebsitecode.com">ICDDS</a>. All Rights Reserved.<br>
+            Template By <a href="https://www.freewebsitecode.com">IEEE Computer Society Banglore Chapter</a>
         </div>
     </div>
 </footer>
