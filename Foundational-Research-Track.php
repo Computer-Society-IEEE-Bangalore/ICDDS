@@ -28,9 +28,9 @@
     </head>
 
     <body>
-<!-- Header Start -->
-<?php include('includes/header.php'); ?>
-        <!-- #header end -->
+        <!-- Header Start -->
+        <?php include("includes/header.php"); ?>
+        <!-- Header end -->
 
         <!-- Banner Section Start-->
         <section class="banner">
@@ -40,14 +40,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                  <h1 class="banner-header">
-                                    Venue
+                                 Foundational Research Track
                                 </h1>
                             </div>
                             <div class="col-md-6">
                                  <p class="banner-nav">
                                     <span class="banner-box">
                                         <a href="index.html">Home</a>
-                                        <a href="venue.html">Venue</a>
+                                        <a href="committe.php">Foundational Research Track</a>
                                     </span>
                                 </p>
                             </div>
@@ -58,33 +58,48 @@
         </section>
         <!-- Banner Section end -->
 
-        <!-- Venue Section Start -->
-        <section id="venue">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="img-col">
-                            <img class="img-fluid" src="img/venue.jpg">
-                        </div>
-                    </div>
-                    <div class="col-md-6 des-cols">
-                        <div class="des-col">
-                            <h2>Our Venue</h2>
-                            <h3>B.M.S. College of Engineering</h3>
-                            <h4> Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka 560019</h4>
-                            <p>
-                            B.M.S. College of Engineering is a private engineering college in Basavanagudi, Bangalore, India. It was started in 1946 by Bhusanayana Mukundadas Sreenivasaiah and is run by the B.M.S. Educational Trust. It is affiliated with Visvesvaraya Technological University and became autonomous in 2008.  
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Venue Section End -->
+        <p>
+        DDS’22 invites submissions discussing original research contributions on all aspects of data science, management of data, artificial intelligence, machine/deep learning and their applications focused on theoretical formulations, experimentations, benchmarking, scalability, trustworthiness of algorithms, novel algorithms and computing, etc. Authors can submit papers maximum of 6 pages including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.
+The topics of interests include, but are not limited to:
+ 
+•	Probabilistic Inference (Bayesian methods, graphical models, Monte Carlo methods, etc.)
+•	Online learning
+•	Generative models
+•	Representation learning for computer vision
+•	Data privacy and new system design
+•	Big data systems
+•	New Computational Models for Big Data
+•	New Data Standards
+•	Semantic-based Data Mining and Data Pre-processing
+•	Learning Theory (bandits, game theory, statistical learning theory, etc.)
+•	ML and Deep learning
+•	Web analytics
+•	Data mining
+•	Optimization 
+•	Ethics in artificial intelligence                                       
+•	Social computing and analytics
+•	Algorithms and systems for database
+•	ML for embedded platforms
+•	Recommender systems
+•	Multimedia processing
+•	Analytics method and systems
+•	Text analytics and NLP
+•	Time-series analysis
+•	Information retrieval
+•	Semantic-based Data Mining and Data Pre-processing
+ 
+ 
+Important Dates:
+Conference dates: 2-3 December 2022
+Paper submission deadline: June 15, 2022
+Paper acceptance decision: August 15, 2022
+Venue: BMSCE, Bangalore (Approval pending)
 
-        <!-- Footer Starts-->
-        <?php include("includes/footer.php"); ?>
-        <!-- Footer Ends-->
+        </p>
+
+        <!-- Footer Start -->
+            <?php include("includes/footer.php"); ?>
+        <!-- #footer end -->
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         <!-- Uncomment below i you want to use a preloader -->

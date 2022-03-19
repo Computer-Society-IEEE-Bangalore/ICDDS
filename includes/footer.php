@@ -19,8 +19,8 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; 2022 <a href="https://www .freewebsitecode.com">ICDDS</a>. All Rights Reserved.<br>
-            Template By <a href="https://www.freewebsitecode.com">IEEE Computer Society Banglore Chapter</a>
+            &copy; 2022 <a href="https://www.icdds.org">ICDDS</a>. All Rights Reserved.<br>
+            Organized By <a href="https://www.cs.ieeebangalore.org/">IEEE Computer Society Banglore Chapter</a>
         </div>
     </div>
 </footer>

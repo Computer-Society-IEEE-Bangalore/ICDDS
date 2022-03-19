@@ -29,29 +29,7 @@
 
     <body>
         <!-- Header Start -->
-        <header id="header">
-            <div class="container-fluid">
-
-                <div id="logo" class="pull-left">
-                    <!-- Uncomment below if you prefer to use text logo -->
-                    <!-- <h1><a href="index.html" class="scrollto">Tech Conference</a></h1> -->
-                    <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
-                </div>
-
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="menu-active"><a href="speaker.html">Speakers</a></li>
-                        <li><a href="agenda.html">Agenda</a></li>
-                        <li><a href="venue.html">Venue</a></li>
-                        <li><a href="ticket.html">Tickets</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+        <?php include("includes/header.php"); ?>
         <!-- Header end -->
 
         <!-- Banner Section Start-->
@@ -62,14 +40,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                  <h1 class="banner-header">
-                                    Speakers
+                                    Organizing Committe
                                 </h1>
                             </div>
                             <div class="col-md-6">
                                  <p class="banner-nav">
                                     <span class="banner-box">
                                         <a href="index.html">Home</a>
-                                        <a href="speaker.html">Speakers</a>
+                                        <a href="committe.php">Organizing Committe</a>
                                     </span>
                                 </p>
                             </div>
@@ -84,7 +62,7 @@
         <section id="speaker">
             <div class="container">
                 <header class="section-header">
-                    <h3>Speakers</h3>
+                    <h3>Committe Members</h3>
                 </header>
                 <div class="row">
                     <div class="col-md-6 img-cols">
@@ -94,8 +72,8 @@
                     </div>
                     <div class="col-md-6 content-cols content-cols-right">
                         <div class="content-col">
-                            <h3>Robyn Brown</h3>
-                            <h4>Product Designer</h4>
+                            <h3>Abhyuday Mondal</h3>
+                            <h4>General Co-chair</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit orci, tincidunt sit amet arcu eu, iaculis malesuada lectus. Sed non lectus at libero vulputate commodo egestas eu nulla.
                             </p>
@@ -118,8 +96,8 @@
                     </div>
                     <div class="col-md-6 content-cols  content-cols-left">
                         <div class="content-col">
-                            <h3>Simon Powell</h3>
-                            <h4>Cloud Architect</h4>
+                            <h3>Bimal K. Roy</h3>
+                            <h4>General Co-chair</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit orci, tincidunt sit amet arcu eu, iaculis malesuada lectus. Sed non lectus at libero vulputate commodo egestas eu nulla.
                             </p>
@@ -147,8 +125,8 @@
                     </div>
                     <div class="col-md-6 content-cols content-cols-right">
                         <div class="content-col">
-                            <h3>Britney Swanson</h3>
-                            <h4>Data Analyst</h4>
+                            <h3>Gang Li</h3>
+                            <h4>TPC Co-chair</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit orci, tincidunt sit amet arcu eu, iaculis malesuada lectus. Sed non lectus at libero vulputate commodo egestas eu nulla.
                             </p>
@@ -163,64 +141,13 @@
                     </div>
                 </div>
                 
-                <div class="row">
-                    <div class="col-md-6 img-cols d-block d-md-none">
-                        <div class="img-col">
-                            <img class="img-fluid" src="img/speaker-4.jpg">
-                        </div>
-                    </div>
-                    <div class="col-md-6 content-cols  content-cols-left">
-                        <div class="content-col">
-                            <h3>Matthew Lyons</h3>
-                            <h4>HR Specialist</h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit orci, tincidunt sit amet arcu eu, iaculis malesuada lectus. Sed non lectus at libero vulputate commodo egestas eu nulla.
-                            </p>
-                            <div class="social-links">
-                                <a href="https://www.freewebsitecode.com/" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/freewebsitecode/" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="https://www.freewebsitecode.com/" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="https://www.youtube.com/channel/UC9HlQRmKgG3jeVD_fBxj1Pw/videos" class="google-plus"><i class="fa fa-youtube"></i></a>
-                                <a href="https://www.freewebsitecode.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 img-cols d-none d-md-block">
-                        <div class="img-col">
-                            <img class="img-fluid" src="img/speaker-4.jpg">
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
         <!-- Speaker Section End -->
 
         <!-- Footer Start -->
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="social-links">
-                                <a href="https://www.freewebsitecode.com/" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/freewebsitecode/" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="https://www.freewebsitecode.com/" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="https://www.youtube.com/channel/UC9HlQRmKgG3jeVD_fBxj1Pw/videos" class="google-plus"><i class="fa fa-youtube"></i></a>
-                                <a href="https://www.freewebsitecode.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="copyright">
-                    &copy; Copyright <a href="https://www.freewebsitecode.com">Your Site Name</a>. All Rights Reserved<br>
-					Template By <a href="https://www.freewebsitecode.com">Free Website Code</a>
-                </div>
-            </div>
-        </footer>
+            <?php include("includes/footer.php"); ?>
         <!-- #footer end -->
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
