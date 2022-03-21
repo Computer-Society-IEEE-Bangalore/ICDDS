@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Tech Conference</title>
+        <title>Contact | ICDDS 2022</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -40,7 +40,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                  <h1 class="banner-header">
-                                    Contact US
+                                    Contact
                                 </h1>
                             </div>
                             <div class="col-md-6">
@@ -65,25 +65,25 @@
                     <h3>Contact Us</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-7 g-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.674337553163!2d-80.21115708560353!3d26.044209503207053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a99f457f3cf7%3A0x92cca70690e98869!2s4000+N+State+Rd+7%2C+Fort+Lauderdale%2C+FL+33301%2C+USA!5e0!3m2!1sen!2sbd!4v1552557532542" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="col-md-2">
+
                     </div>
                     
-                    <div class="col-md-5 form">
-                        <form action="" method="post" role="form" class="contactForm">
+                    <div class="col-md-8  form">
+                        <form action="https://formspree.io/f/meqnzvwn" method="post" role="form" class="contactForm">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" placeholder="Your Name" />
+                                    <input name="name" type="text" class="form-control" placeholder="Your Name" required />
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" placeholder="Your Email" />
+                                    <input name="email" type="email" class="form-control" placeholder="Your Email" required />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Subject" />
+                                <input name="subject" type="text" class="form-control" placeholder="Subject" required/>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                                <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
                             </div>
                             <div><button type="submit">Send Message</button></div>
                         </form>

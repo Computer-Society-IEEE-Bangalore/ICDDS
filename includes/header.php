@@ -86,8 +86,16 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="committe.php">Committee</a></li>
+                    <!-- <li><a href="about.php">About</a></li> -->
+                    <li><a href="#">Committee</a>
+
+                    <ul class="nav-dropdown">
+            <li><a href="Organizing-Committee.php">Organizing Committee</a></li>
+            <li><a href="Program-Committee.php">Program Committee</a></li>
+            
+          </ul>
+</li>
+
                     <li><a href="agenda.php">Agenda</a></li>
 
                     <li><a href="#">For Authors</a>

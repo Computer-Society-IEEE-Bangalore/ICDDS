@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>ICDDS 2022</title>
+        <title>IEEE Computer Society International Conference on Data, Decision and Systems (DDS) 2022</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -46,9 +46,9 @@
                             <div class="carousel-container">
                                 <div class="carousel-content">
                                     <h2>ICDDS 2022</h2>
-                                    <h3>
-                                        1st IEEE Computer Society International Conference <br>     on Data, Decision and Systems (DDS) 2022
-</h3>
+                                    <p>
+                                        1st IEEE Computer Society International Conference on Data, Decision and Systems (DDS) 2022
+                                    </p>
                                     <a href="" class="btn-get-started scrollto">Buy Tickets</a>
                                 </div>
                             </div>
@@ -58,10 +58,10 @@
                             <div class="carousel-background"><img src="img/slider-2.jpg" alt=""></div>
                             <div class="carousel-container">
                                 <div class="carousel-content">
-                                    <h2>DECEMBER 2022</h2>
-                                    <h3>
-                                    Get Involved and Learn More
-</h3>
+                                    <h2>Get Involved and Learn More</h2>
+                                    <p>
+                                        Phasellus faucibus, ipsum quis maximus vestibulum, sem nulla tristique odio, non volutpat neque libero a mi. Ut ac posuere felis. Morbi ac leo mauris. Nullam quis eros at mi auctor fringilla ultricies non quam.
+                                    </p>
                                     <a href="" class="btn-get-started scrollto">Buy Tickets</a>
                                 </div>
                             </div>
@@ -71,10 +71,10 @@
                             <div class="carousel-background"><img src="img/slider-3.jpg" alt=""></div>
                             <div class="carousel-container">
                                 <div class="carousel-content">
-                                    <h2>@BMS COLLEGE OF ENGINEERING</h2>
-                                    <h3>
-                                    Bengaluru, Karnataka
-</h3>
+                                    <h2>We are A Community</h2>
+                                    <p>
+                                        Donec rhoncus accumsan lectus sed iaculis. Ut a auctor felis. Fusce est dolor, faucibus id convallis non, iaculis ac leo. Phasellus eu imperdiet tortor, quis placerat ex.
+                                    </p>
                                     <a href="" class="btn-get-started scrollto">Buy Tickets</a>
                                 </div>
                             </div>
@@ -99,30 +99,34 @@
 
         <!-- About Section Start-->
         <section id="about">
-            <div class="containe    r">
+            <div class="container">
                 <header class="section-header">
                     <h3>About Us</h3>
                 </header>
                 <div class="row">
-                    <div class="col-md-12 about-col-1">
+                    <div class="col-md-8 about-col-1">
                         <div class="about-title">  
                             <h1>International Conference on Data, Decision and Systems 2022</h1>
                             <!-- <a href="#">Buy Tickets</a> -->
                         </div>
                     </div>
                     <div class="col-md-6 about-col-2">
-                        <!-- <div class="about-imgs">
+                        <div class="about-imgs">
                             <div class="about-img">
-                           <img class="img-fluid" src="https://via.placeholder.com/1000x600" /> 
+                                <!-- <img class="img-fluid" src="https://via.placeholder.com/1000x600" /> -->
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                     
-                    
+                    <div class="col-md-2"> 
+                        <h2>Technical Partners</h2>
+                        <img class="img-fluid" src="https://via.placeholder.com/800x600" />
+                        <img class="img-fluid" src="https://via.placeholder.com/800x600" />
+                    </div>
 
-                    <div class="col-md-12 about-des">
+                    <div class="col-md-10 about-des">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-5">
                                 <div class="about-des-col">
                                     <div class="about-img">
                                         <!-- <img class="img-fluid" src="https://via.placeholder.com/600x300" /> -->
@@ -130,33 +134,27 @@
                                     <p>
                                     Rapid advances and growth in connected world across different application domains are fast pacing the data volumes generated from range of devices. Such high growth is further endorsed by digital transformation, adoption of advanced Internet of Things (IoT) solutions, cyber physical systems and Smart things. Data being the centre of innovative systems, its overall realization in solution building depends on several aspects. For example, quality of data, data management, computation, knowledge discovery and decision.
                                     </p>
-                                    <p>          DDS’22 aims to look broadly at data based innovation and technologies in interdisciplinary areas. The conference considers all aspects of application, data, decision science, solution design and challenges in such new paradigm from theory to applied research.</p>
-                                    <!-- <a href="#">Read More</a> -->
+                                    <a href="#">Read More</a>
                                 </div>
                                 
                             </div>
-                            
-                          
-                    <div class="col-md-2"> 
-                        <h2>Academic</h2>
-                        <!-- <img class="img-fluid" src="https://via.placeholder.com/800x600" /> -->
-                        <img class="img-fluid" src="img/APPCAIR LOGO.jpg" />
-                        <img class="img-fluid" src="img/BITS PILANI GOA LOGO.jpg" />
-                        <img class="img-fluid" src="img/BMS LOGO.jpg" />
-                        <!-- <img class="img-fluid" src="img/RV LOGO.jpg" /> -->
-                        <!-- <img class="img-fluid" src="img/VVCE LOGO.jpg" /> -->
-                        <!-- <img class="img-fluid" src="img/MIT LOGO.jpg" /> -->
+                            <div class="col-md-6">
+                                <div class="about-des-col">
+                                    <div class="about-img">
+                                        <!-- <img class="img-fluid" src="https://via.placeholder.com/600x300" /> -->
+                                    </div>
+                                    <p>
+                                    DDS’22 aims to look broadly at data based innovation and technologies in interdisciplinary areas. The conference considers all aspects of application, data, decision science, solution design and challenges in such new paradigm from theory to applied research.
+                                    </p>
+                                    <a href="#">Read More</a>
+</div>
+                                </div>
+                                <div class="col-md-2">
+                        <h2>University Partners</h2>
+                        <img class="img-fluid" src="https://via.placeholder.com/80x60" />
+      
                     </div>
-                    <div class="col-md-2"> 
-                    <h2>Partners</h2>
-                        <!-- <img class="img-fluid" src="https://via.placeholder.com/800x600" /> -->
-                        <!-- <img class="img-fluid" src="img/APPCAIR LOGO.jpg" /> -->
-                        <!-- <img class="img-fluid" src="img/BITS PILANI GOA LOGO.jpg" /> -->
-                        <!-- <img class="img-fluid" src="img/BMS LOGO.jpg" /> -->
-                        <img class="img-fluid" src="img/RV LOGO.jpg" />
-                        <img class="img-fluid" src="img/VVCE LOGO.jpg" />
-                        <img class="img-fluid" src="img/MIT LOGO.jpg" />
-                    </div>
+
 
                             
                         </div>
@@ -180,8 +178,8 @@
                             DDS’22- a flagship conference of IEEE Computer Society Bangalore Chapter invites researchers, engineers, and subject matter experts from academia, industry and start-ups to present their latest innovations in Data Science and their applications. DDS mainly has three tracks- <strong> Foundational Research Track, Data Science and System Research, and Data Science and Applications Track. </strong>
 Authors are encouraged to submit their original work(s) in either of these tracks or can submit in all. Foundational Research Track aims to receive submissions from theory to novel findings and current practices in all aspects of data science, whereas Data Science and System Research Track is focused on research addressing data science and its use cases for systems and distributed platforms. Data Science and Applications Track invites submissions addressing the research gap from the real-world problems and significant value creations.
                             </p>
-                            <a href="Foundational-Research-Track.php">Foundational Research Track</a>          <br>
-                            <a href="Data-Science-and-System-Research.php">Data Science and System Research</a><br>
+                            <a href="Foundational-Research-Track.php">Foundational Research Track</a>          
+                            <a href="Data-Science-and-System-Research.php">Data Science and System Research</a>
                             <a href="Data-Science-and-Applications-Track.php">Data Science and Applications Track</a>
                         </div>
                     </div>

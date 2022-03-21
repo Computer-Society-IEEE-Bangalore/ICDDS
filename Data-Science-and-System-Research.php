@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Tech Conference</title>
+        <title>DATA SCIENCE AND SYSTEM RESEARCH | ICDDS 2022</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -25,6 +25,13 @@
 
         <!-- Main Stylesheet File -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+.para{
+    margin-top:2%;
+    margin-left:10%;
+    margin-right:10%;
+}
+</style>
     </head>
 
     <body>
@@ -58,35 +65,38 @@
         </section>
         <!-- Banner Section end -->
 
-        <p>
-        DDS’22 invites submissions discussing original research contributions on all aspects of data science, management of data, artificial intelligence, machine/deep learning and their applications focused on systems research. Authors can submit papers maximum of 6 pages including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.
-The topics of interests include, but are not limited to:
+        <p class="para">
+        DDS’22 invites submissions discussing original research contributions on all aspects of data science, management of data, artificial intelligence, machine/deep learning and their applications focused on systems research. Authors can submit papers<strong> maximum of 6 pages </strong>including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.
+</p>
+<p class="para">The topics of interests include, but are not limited to:</p>
  
-•	CPU/GPU architectures for AI/ML applications
-•	VLSI and architecture design for data science applications
-•	Compiler optimization using AI/ML
-•	Data science for resource constrained computing
-•	Data privacy and new system design
-•	Big data systems
-•	Energy efficient computing and inferencing
-•	Urban computing and analytics
-•	Data science for embedded systems
-•	Multi agent systems
-•	Energy-efficient Computing for Data
-•	Software Techniques and Architectures in Cloud/Grid/Stream Computing
-•	Data science for embedded systems                                       
-•	Algorithms and systems for database
-•	ML for embedded platforms
-•	Resource constrained computing
-•	Analytics method and systems 
+<p class="para">
+•	CPU/GPU architectures for AI/ML applications <br>
+•	VLSI and architecture design for data science applications <br>
+•	Compiler optimization using AI/ML <br>
+•	Data science for resource constrained computing <br>
+•	Data privacy and new system design <br>
+•	Big data systems <br>
+•	Energy efficient computing and inferencing<br> 
+•	Urban computing and analytics <br>
+•	Data science for embedded systems <br>
+•	Multi agent systems <br>
+•	Energy-efficient Computing for Data <br>
+•	Software Techniques and Architectures in Cloud/Grid/Stream Computing <br>
+•	Data science for embedded systems <br>
+•	Algorithms and systems for database <br>
+•	ML for embedded platforms <br>
+•	Resource constrained computing <br>
+•	Analytics method and systems <br>
 
-Submission guidelines
-TBD
-Important Dates
-Conference dates: 2-3 December 2022
-Paper submission deadline: June 15, 2022
-Paper acceptance decision: August 15, 2022
-Venue: BMSCE, Bangalore (Approval pending)
+</p>
+<p class="para">
+
+<strong>Important Dates : </strong><br>
+Conference dates: 2-3 December 2022 <br>
+Paper submission deadline: June 15, 2022 <br>
+Paper acceptance decision: August 15, 2022 <br>
+Venue: BMS College of Engineering, Bangalore <br>
 
         </p>
 

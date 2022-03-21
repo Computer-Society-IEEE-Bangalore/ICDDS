@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Tech Conference</title>
+        <title>FOUNDATIONAL RESEARCH TRACK | ICDDS 2022</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -25,6 +25,13 @@
 
         <!-- Main Stylesheet File -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+.para{
+    margin-top:2%;
+    margin-left:10%;
+    margin-right:10%;
+}
+</style>
     </head>
 
     <body>
@@ -58,43 +65,45 @@
         </section>
         <!-- Banner Section end -->
 
-        <p>
-        DDS’22 invites submissions discussing original research contributions on all aspects of data science, management of data, artificial intelligence, machine/deep learning and their applications focused on theoretical formulations, experimentations, benchmarking, scalability, trustworthiness of algorithms, novel algorithms and computing, etc. Authors can submit papers maximum of 6 pages including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.
-The topics of interests include, but are not limited to:
- 
-•	Probabilistic Inference (Bayesian methods, graphical models, Monte Carlo methods, etc.)
-•	Online learning
-•	Generative models
-•	Representation learning for computer vision
-•	Data privacy and new system design
-•	Big data systems
-•	New Computational Models for Big Data
-•	New Data Standards
-•	Semantic-based Data Mining and Data Pre-processing
-•	Learning Theory (bandits, game theory, statistical learning theory, etc.)
-•	ML and Deep learning
-•	Web analytics
-•	Data mining
-•	Optimization 
-•	Ethics in artificial intelligence                                       
-•	Social computing and analytics
-•	Algorithms and systems for database
-•	ML for embedded platforms
-•	Recommender systems
-•	Multimedia processing
-•	Analytics method and systems
-•	Text analytics and NLP
-•	Time-series analysis
-•	Information retrieval
-•	Semantic-based Data Mining and Data Pre-processing
- 
- 
-Important Dates:
-Conference dates: 2-3 December 2022
-Paper submission deadline: June 15, 2022
-Paper acceptance decision: August 15, 2022
-Venue: BMSCE, Bangalore (Approval pending)
+        <p class="para"> 
+        DDS’22 invites submissions discussing original research contributions on all aspects of data science, management of data, artificial intelligence, machine/deep learning and their applications focused on theoretical formulations, experimentations, benchmarking, scalability, trustworthiness of algorithms, novel algorithms and computing, etc. Authors can submit papers <strong> maximum of 6 pages </strong>including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.</p>
 
+<p class="para">The topics of interests include, but are not limited to:</p>
+ 
+<p class="para">
+•	Probabilistic Inference (Bayesian methods, graphical models, Monte Carlo methods, etc.) <br>
+•	Online learning <br>
+•	Generative models <br>
+•	Representation learning for computer vision <br>
+•	Data privacy and new system design <br>
+•	Big data systems <br>
+•	New Computational Models for Big Data <br>
+•	New Data Standards <br>
+•	Semantic-based Data Mining and Data Pre-processing <br>
+•	Learning Theory (bandits, game theory, statistical learning theory, etc.) <br>
+•	ML and Deep learning <br>
+•	Web analytics <br>
+•	Data mining <br>
+•	Optimization <br>
+•	Ethics in artificial intelligence <br>
+•	Social computing and analytics <br>
+•	Algorithms and systems for database <br>
+•	ML for embedded platforms <br>
+•	Recommender systems <br>
+•	Multimedia processing <br>
+•	Analytics method and systems <br>
+•	Text analytics and NLP <br>
+•	Time-series analysis <br>
+•	Information retrieval <br>
+•	Semantic-based Data Mining and Data Pre-processing <br>
+ 
+</p>
+<p class="para">
+<strong>Important Dates :</strong> <br>
+Conference dates: 2-3 December 2022 <br>
+Paper submission deadline: June 15, 2022 <br>
+Paper acceptance decision: August 15, 2022 <br>
+Venue: BMS College of Engineering, Bangalore <br>
         </p>
 
         <!-- Footer Start -->

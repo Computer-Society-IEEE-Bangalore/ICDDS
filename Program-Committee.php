@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Agenda | ICDDS 2022</title>
+        <title>Program Committee | ICDDS 2022</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -40,14 +40,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                  <h1 class="banner-header">
-                                    Agenda
+                                    Program Committee
                                 </h1>
                             </div>
                             <div class="col-md-6">
                                  <p class="banner-nav">
                                     <span class="banner-box">
-                                        <a href="index.html">Home</a>
-                                        <a href="agenda.html">Agenda</a>
+                                        <a href="index.php">Home</a>
+                                        <a href="Program-Committee.php">Program Committee</a>
                                     </span>
                                 </p>
                             </div>
@@ -62,52 +62,9 @@
         <section id="agenda">
             <div class="container">
                 <header class="section-header">
-                    <h3>Our Agenda</h3>
+                    <h3>Will Be Updated Shortly...</h3>
                 </header>
-                <div class="row" style="padding: 0;">
-                    <div class="col-6 text-right">
-                        <h2>10:00</h2>
-                    </div>
-                    <div class="col-6 text-left">
-                        <h2>Meet & Greet</h2>
-                    </div>
-                </div>
                 
-                <div class="row">
-                    <div class="col-6 text-right">
-                        <h2>12:00</h2>
-                    </div>
-                    <div class="col-6 text-left">
-                        <h2>Sessions Stage</h2>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-6 text-right">
-                        <h2>13:00</h2>
-                    </div>
-                    <div class="col-6 text-left">
-                        <h2>Lunch</h2>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-6 text-right">
-                        <h2>14:00</h2>
-                    </div>
-                    <div class="col-6 text-left">
-                        <h2>Networking</h2>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-6 text-right">
-                        <h2>16:00</h2>
-                    </div>
-                    <div class="col-6 text-left">
-                        <h2>Q & A Session</h2>
-                    </div>
-                </div>
             </div>
         </section>
         <!-- Agenda Section End -->

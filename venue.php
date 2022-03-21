@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Tech Conference</title>
+        <title>Venue | ICDDS 2022</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -64,7 +64,10 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="img-col">
-                            <img class="img-fluid" src="img/venue.jpg">
+
+
+
+                            <img class="img-fluid" src="img/BMS COLLEGE OF ENGINEERING 2.jpg">
                         </div>
                     </div>
                     <div class="col-md-6 des-cols">
@@ -75,11 +78,17 @@
                             <p>
                             B.M.S. College of Engineering is a private engineering college in Basavanagudi, Bangalore, India. It was started in 1946 by Bhusanayana Mukundadas Sreenivasaiah and is run by the B.M.S. Educational Trust. It is affiliated with Visvesvaraya Technological University and became autonomous in 2008.  
                             </p>
+                            
                         </div>
+                        
                     </div>
+
                 </div>
+                
             </div>
+            
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4599577246213!2d77.56522136482171!3d12.942393090874972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1647757828442!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <!-- Venue Section End -->
 
         <!-- Footer Starts-->

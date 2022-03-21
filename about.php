@@ -40,7 +40,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                  <h1 class="banner-header">
-                                    About US
+                                    About
                                 </h1>
                             </div>
                             <div class="col-md-6">
@@ -74,7 +74,7 @@
                     <div class="col-md-8 about-col-2">
                         <div class="about-imgs">
                             <div class="about-img">
-                                <img class="img-fluid" src="img/about.jpg" />
+                                <img class="img-fluid" src="https://via.placeholder.com/1000x400" />
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                             <div class="col-md-6">
                                 <div class="about-des-col">
                                     <div class="about-img">
-                                        <img class="img-fluid" src="img/about-1.jpg" />
+                                        <img class="img-fluid" src="https://via.placeholder.com/600x300" />
                                     </div>
                                     <p>
                                         Rapid advances and growth in connected world across different application domains are fast pacing the data volumes generated from range of devices. Such high growth is further endorsed by digital transformation, adoption of advanced Internet of Things (IoT) solutions, cyber physical systems and Smart things. Data being the centre of innovative systems, its overall realization in solution building depends on several aspects. For example, quality of data, data management, computation, knowledge discovery and decision. 
@@ -94,7 +94,7 @@
                             <div class="col-md-6">
                                 <div class="about-des-col">
                                     <div class="about-img">
-                                        <img class="img-fluid" src="img/about-2.jpg" />
+                                        <img class="img-fluid" src="https://via.placeholder.com/600x300" />
                                     </div>
                                     <p>
                                         DDS’22 aims to look broadly at data based innovation and technologies in interdisciplinary areas. The conference considers all aspects of application, data, decision science, solution design and challenges in such new paradigm from theory to applied research.

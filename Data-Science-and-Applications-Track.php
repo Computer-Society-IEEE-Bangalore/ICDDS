@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Tech Conference</title>
+        <title>DATA SCIENCE AND APPLICATIONS TRACK | ICDDS 2022
+</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -25,6 +26,13 @@
 
         <!-- Main Stylesheet File -->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+.para{
+    margin-top:2%;
+    margin-left:10%;
+    margin-right:10%;
+}
+</style>
     </head>
 
     <body>
@@ -57,19 +65,26 @@
             </div>
         </section>
         <!-- Banner Section end -->
+       
+       
+        <p class="para">
+        <strong>The Data science and applications Track </strong> invites submissions discussing the experiment design, innovative approaches, implementation and results for application of data and decision science across different real-world problem statements. Authors are encouraged to submit their works focused on technical aspects of data mining methods, applied artificial intelligence/machine learning algorithms, MLOps, DevOps in data science, knowledge inferencing, context learning, application based benchmarking of ML models, experience from end-to-end deployment.
+Authors can submit papers <strong> maximum of 6 pages </strong> including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.
+</p>
+<p class="para">The topics of interests include, but are not limited to:</p>
+<p class="para">
+<strong>Data Science Use Cases: </strong> in area such as healthcare, supply chain, enterprise mobility solution, mobile systems, edge computing, education, smart campus, smart city and buildings, manufacturing, energy, demand forecasting, finance, retail, social computation, crowd sensing, wireless communication and networking, smart mobility, cyber security, environmental policy, climate change and control, internet of personalized things, etc.
+</p>
 
-        <p>
-        The Data science and applications Track invites submissions discussing the experiment design, innovative approaches, implementation and results for application of data and decision science across different real-world problem statements. Authors are encouraged to submit their works focused on technical aspects of data mining methods, applied artificial intelligence/machine learning algorithms, MLOps, DevOps in data science, knowledge inferencing, context learning, application based benchmarking of ML models, experience from end-to-end deployment.
-Authors can submit papers maximum of 6 pages including references. All accepted and presented papers will be published as conference proceeding and will be included in IEEE Xplore Digital Library and other indexing.
-The topics of interests include, but are not limited to:
-Data Science Use Cases: in area such as healthcare, supply chain, enterprise mobility solution, mobile systems, edge computing, education, smart campus, smart city and buildings, manufacturing, energy, demand forecasting, finance, retail, social computation, crowd sensing, wireless communication and networking, smart mobility, cyber security, environmental policy, climate change and control, internet of personalized things, etc.
-Challenges in Data Science and Applications: Bias and fairness, Algorithm explainability, Scalability, transparency, lessons from real-word deployments, benchmarking, data privacy, etc.
+<p class="para"><strong>Challenges in Data Science and Applications: </strong>Bias and fairness, Algorithm explainability, Scalability, transparency, lessons from real-word deployments, benchmarking, data privacy, etc.
+</p>
+<p class="para">
 
-Important Dates:
-Conference dates: 2-3 December 2022
-Paper submission deadline: June 15, 2022
-Paper acceptance decision: August 15, 2022
-Venue: BMSCE, Bangalore (Approval pending)
+<strong>Important Dates : </strong><br>
+Conference dates: 2-3 December 2022 <br>
+Paper submission deadline: June 15, 2022 <br>
+Paper acceptance decision: August 15, 2022 <br>
+Venue: BMS College Of Engineering, Bangalore 
 
         </p>
 

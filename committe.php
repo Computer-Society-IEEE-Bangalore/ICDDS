@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col-md-6 img-cols">
                         <div class="img-col">
-                            <img class="img-fluid" src="img/speaker-1.jpg">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x400">
                         </div>
                     </div>
                     <div class="col-md-6 content-cols content-cols-right">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="col-md-6 img-cols d-none d-md-block">
                         <div class="img-col">
-                            <img class="img-fluid" src="img/speaker-2.jpg">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x400">
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                 <div class="row">
                     <div class="col-md-6 img-cols">
                         <div class="img-col">
-                            <img class="img-fluid" src="img/speaker-3.jpg">
+                            <img class="img-fluid" src="https://via.placeholder.com/600x400">
                         </div>
                     </div>
                     <div class="col-md-6 content-cols content-cols-right">
