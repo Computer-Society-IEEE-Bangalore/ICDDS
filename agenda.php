@@ -164,7 +164,7 @@
                 <div class="row">
                     <div class="col-6 text-right">
                         <h2>13:00</h2>
-                    </div>
+                    </div>  
                     <div class="col-6 text-left">
                         <h2>Lunch</h2>
                     </div>

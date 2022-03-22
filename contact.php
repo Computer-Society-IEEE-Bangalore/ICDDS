@@ -61,13 +61,11 @@
         <!-- Contact Section Start -->
         <section id="contact">
             <div class="container">
-                <div class="section-header">
+            <div class="section-header">
                     <h3>Contact Us</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-2">
-
-                    </div>
+                    
                     
                     <div class="col-md-8  form">
                         <form action="https://formspree.io/f/meqnzvwn" method="post" role="form" class="contactForm">
@@ -87,6 +85,19 @@
                             </div>
                             <div><button type="submit">Send Message</button></div>
                         </form>
+                    </div>
+                    
+                    <div class="col-md-2">
+                    <h2>Acedemic</h2>
+                    <img class="img-fluid" src="img/APPCAIR LOGO.jpg" />
+                        <img class="img-fluid" src="img/BITS PILANI GOA LOGO.jpg" />
+                        <img class="img-fluid" src="img/BMS LOGO.jpg" />
+                    </div>
+                    <div class="col-md-2">
+                    <h2>Partners</h2>
+                    <img class="img-fluid" src="img/RV LOGO.jpg" />
+                        <img class="img-fluid" src="img/VVCE LOGO.jpg" />
+                        <img class="img-fluid" src="img/MIT LOGO.jpg" />
                     </div>
                 </div>
             </div>

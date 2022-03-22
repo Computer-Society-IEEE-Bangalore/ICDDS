@@ -64,9 +64,6 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="img-col">
-
-
-
                             <img class="img-fluid" src="img/BMS COLLEGE OF ENGINEERING 2.jpg">
                         </div>
                     </div>
@@ -78,19 +75,30 @@
                             <p>
                             B.M.S. College of Engineering is a private engineering college in Basavanagudi, Bangalore, India. It was started in 1946 by Bhusanayana Mukundadas Sreenivasaiah and is run by the B.M.S. Educational Trust. It is affiliated with Visvesvaraya Technological University and became autonomous in 2008.  
                             </p>
-                            
                         </div>
-                        
                     </div>
-
                 </div>
-                
-            </div>
-            
+            </div>    
         </section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4599577246213!2d77.56522136482171!3d12.942393090874972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1647757828442!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <!-- Venue Section End -->
-
+        <div class="row">
+        <div class="col-md-8">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4599577246213!2d77.56522136482171!3d12.942393090874972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1647757828442!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-2">
+        <h2>Academic</h2>
+                        
+                        <img class="" src="img/APPCAIR LOGO.jpg"  width="170px;" height="150px";/>
+                        <img class="" src="img/BITS PILANI GOA LOGO.jpg" width="170px;" height="200px";/>
+                        <img class="" src="img/BMS LOGO.jpg" width="170px;" height="150px"; />
+                        
+        </div>
+        <div class="col-md-2">
+        <h2>Partners</h2>
+                        <img class="" src="img/RV LOGO.jpg" width="170px;" height="150px";/>
+                        <img class="" src="img/VVCE LOGO.jpg" width="170px;" height="150px";/>
+                        <img class="" src="img/MIT LOGO.jpg" width="170px;"  />
+        </div>
+        </div>
         <!-- Footer Starts-->
         <?php include("includes/footer.php"); ?>
         <!-- Footer Ends-->
