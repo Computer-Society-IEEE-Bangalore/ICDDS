@@ -34,13 +34,13 @@
 
                 <div id="logo" class="pull-left">
                     <!-- Uncomment below if you prefer to use text logo -->
-                    <!-- <h1><a href="index.html" class="scrollto">Tech Conference</a></h1> -->
-                    <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                    <!-- <h1><a href="/" class="scrollto">Tech Conference</a></h1> -->
+                    <a href="/"><img src="img/logo.png" alt="Logo" /></a>
                 </div>
 
                 <nav id="nav-menu-container">
                     <ul class="nav-menu">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="speaker.html">Speakers</a></li>
                         <li><a href="agenda.html">Agenda</a></li>
@@ -68,7 +68,7 @@
                             <div class="col-md-6">
                                  <p class="banner-nav">
                                     <span class="banner-box">
-                                        <a href="index.html">Home</a>
+                                        <a href="/">Home</a>
                                         <a href="ticket.html">Tickets</a>
                                     </span>
                                 </p>

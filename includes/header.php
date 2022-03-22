@@ -80,8 +80,8 @@
         <div class="container-fluid">
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use text logo -->
-                <h2><a href="index.html" class="scrollto">ICDDS</a></h2> 
-                <!-- <a href="index.html">ICDDS <img src="img/logo.png" alt="Logo" /></a> -->
+                <h2><a href="/" class="scrollto">ICDDS</a></h2> 
+                <!-- <a href="/">ICDDS <img src="img/logo.png" alt="Logo" /></a> -->
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">

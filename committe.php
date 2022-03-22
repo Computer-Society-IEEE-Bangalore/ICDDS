@@ -46,7 +46,7 @@
                             <div class="col-md-6">
                                  <p class="banner-nav">
                                     <span class="banner-box">
-                                        <a href="index.html">Home</a>
+                                        <a href="/">Home</a>
                                         <a href="committe.php">Organizing Committe</a>
                                     </span>
                                 </p>
