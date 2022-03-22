@@ -99,14 +99,14 @@
 
         <!-- About Section Start-->
         <section id="about">
-            <div class="containe    r">
+            <div class="container">
                 <header class="section-header">
                     <h3>About Us</h3>
                 </header>
                 <div class="row">
                     <div class="col-md-12 about-col-1">
                         <div class="about-title">  
-                            <h1>International Conference on Data, Decision and Systems 2022</h1>
+                            <h1>International Conference on Data, Decision and Systems <br>2022</h1>
                             <!-- <a href="#">Buy Tickets</a> -->
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                 
                             </div>
                             
-                          
+                    
                     <div class="col-md-2"> 
                         <h2>Academic</h2>
                         <!-- <img class="img-fluid" src="https://via.placeholder.com/800x600" /> -->
