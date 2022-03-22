@@ -64,8 +64,8 @@
                 <header class="section-header">
                     <h3>General Chairs</h3>
                 </header>
-                <img src="img/Abhyuday.jpg" width="30%" height="30%">
-                <img src="img/Bimal.jpg" width="30%" height="30%">
+                <img src="img/Abhyuday.jpg" width="250px" height="250px">
+                <img src="img/Bimal.jpg" width="250px" height="250px">
                 
             </div>
         </section>
@@ -75,8 +75,11 @@
                 <header class="section-header">
                     <h3>TPC Chairs</h3>
                 </header>
-                <img src="img/Gang_Li.JPG" width="30%" height="30%">
-                <img src="img/Qian_Li.JPG" width="30%" height="30%">
+                <div class="image-holder">
+                    <img src="img/Gang_Li.JPG" width="250px" height="250px">
+                    <p>Gang Li</p>
+                    <img src="img/Qian_Li.JPG" width="250px" height="250px">
+                </div>
                 
             </div>
         </section>
@@ -86,11 +89,25 @@
                 <header class="section-header">
                     <h3>Organizing Chairs</h3>
                 </header>
-                <img src="img/snehansu.png" width="30%" height="30%">
-                <img src="img/Nagaraja.jpg" width="30%" height="30%">
-                <img src="img/Ramakrishna-Hegde-413x500.jpg" width="30%" height="30%">
-                <img src="img/srikanth prabhu.jpg" width="30%" height="30%">
-            </div>
+                <div class="image-holder">
+                    <div>
+                        <img src="img/snehansu.png" width="250px" height="250px">
+                        <p class="commitee-names">Snehansu Saha</p>
+                    </div>
+                    <div>
+                        <img src="img/Nagaraja.jpg" width="250px" height="250px">
+                        <p class="commitee-names">Nagaraja GS</p>
+                    </div>
+                    <div>
+                        <img src="img/Ramakrishna-Hegde-413x500.jpg" width="250px" height="250px">
+                        <p class="commitee-names">Ramakrishna Hegede</p>
+                    </div>
+                    <div>
+                        <img src="img/srikanth prabhu.jpg" width="250px" height="250px">
+                        <p class="commitee-names">Srikanth Prabhu</p>
+                    </div>
+                </div>
+            </img>
         </section>
 
         <section id="agenda">
@@ -98,7 +115,7 @@
                 <header class="section-header">
                     <h3>Finance Chairs</h3>
                 </header>
-                <img src="img/Nagaraja.jpg" width="30%" height="30%">
+                <img src="img/Nagaraja.jpg" width="250px" height="250px">
                 
                 
             </div>
@@ -109,8 +126,8 @@
                 <header class="section-header">
                     <h3>Publication Chairs</h3>
                 </header>
-                <img src="img/Alok-Ranjan.jpg" width="30%" height="30%">
-                <img src="img/seems_chopra.jpg" width="30%" height="30%">
+                <img src="img/Alok-Ranjan.jpg" width="250px" height="250px">
+                <img src="img/seems_chopra.jpg" width="250px" height="250px">
                 
             </div>
         </section>
@@ -120,8 +137,8 @@
                 <header class="section-header">
                     <h3>Publicity/Media Chairs</h3>
                 </header>
-                <img src="img/Ramakrishna-Hegde-413x500.jpg" width="30%" height="30%">
-                <img src="img/srikanth prabhu.jpg" width="30%" height="30%">
+                <img src="img/Ramakrishna-Hegde-413x500.jpg" width="250px" height="250px">
+                <img src="img/srikanth prabhu.jpg" width="250px" height="250px">
                 
             </div>
         </section>
@@ -131,9 +148,9 @@
                 <header class="section-header">
                     <h3>Steering Chairs</h3>
                 </header>
-                <img src="img/Dr.vishwas-lakkundi.jpg" width="30%" height="30%">
-                <img src="img/snehansu.png" width="30%" height="30%">
-                <img src="img/Prasant-Misra-413x500.jpg" width="30%" height="30%">
+                <img src="img/Dr.vishwas-lakkundi.jpg" width="250px" height="250px">
+                <img src="img/snehansu.png" width="250px" height="250px">
+                <img src="img/Prasant-Misra-413x500.jpg" width="250px" height="250px">
 
             </div>
         </section>
@@ -143,9 +160,9 @@
                 <header class="section-header">
                     <h3>Principal Advisor</h3>
                 </header>
-                <img src="img/Dr.vishwas-lakkundi.jpg" width="30%" height="30%">
-                <img src="img/snehansu.png" width="30%" height="30%">
-                <img src="img/geetha.jpeg" width="30%" height="30%">
+                <img src="img/Dr.vishwas-lakkundi.jpg" width="250px" height="250px">
+                <img src="img/snehansu.png" width="250px" height="250px">
+                <img src="img/geetha.jpeg" width="250px" height="250px">
                 
             </div>
         </section>
@@ -155,8 +172,8 @@
                 <header class="section-header">
                     <h3>Sponsorship Chairs</h3>
                 </header>
-                <img src="img/Abhyuday.jpg" width="30%" height="30%">
-                <img src="img/Bimal.jpg" width="30%" height="30%">
+                <img src="img/Abhyuday.jpg" width="250px" height="250px">
+                <img src="img/Bimal.jpg" width="250px" height="250px">
                 
             </div>
         </section>
