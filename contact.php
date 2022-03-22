@@ -97,7 +97,7 @@
                     <h2>Partners</h2>
                     <img class="img-fluid" src="img/RV LOGO.jpg" />
                         <img class="img-fluid" src="img/VVCE LOGO.jpg" />
-                        <img class="img-fluid" src="img/MIT LOGO.jpg" />
+                    gi     <img class="img-fluid" src="img/MIT LOGO.jpg" />
                     </div>
                 </div>
             </div>
