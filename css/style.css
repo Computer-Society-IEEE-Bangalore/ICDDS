@@ -616,7 +616,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h3 {
   font-size: 45px;
   color: #666;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -896,7 +896,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speaker .content-col a {
   display: inline-block;
   height: 45px;
-  width: 450px;
+  width: 50%;
   font-size: 22px;
   text-align: center;
   color: #d2691e;
@@ -916,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 575.98px) {
   #speaker .content-col a {
     height: 35px;
-    width: 35px;
+    width: 80%;
     font-size: 18px;
     padding: 5px 0;
   }
@@ -1544,4 +1544,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+}
+
+.authorbtn a{
+ width: 100%;
+ color: #000; 
 }
