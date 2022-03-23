@@ -338,6 +338,14 @@ h6 {
   letter-spacing: 1px;
 }
 
+.banner1-header1{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .banner .banner-nav {
   text-align: right;
 }
