@@ -939,9 +939,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 575.98px) {
   #speaker .content-col a {
-    height: 35px;
+    height: auto;
     width: 80%;
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px 0;
   }
 }
