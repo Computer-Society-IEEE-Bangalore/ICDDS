@@ -756,7 +756,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-des {
   padding: 30px 0 0 0;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 575.98px) {
@@ -879,7 +879,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speaker .content-col {
   padding: 25px 30px;
-  text-align: center;
+  text-align: left;
 }
 
 #speaker .content-col h3 {

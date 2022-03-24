@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col-md-4 about-col-1">
                         <div class="about-title">  
-                            <h1>Welcome to International Conference on Data, Decision and Systems 2022</h1>
+                            <h1>Welcome to International Conference on Data, Decision and Systems</h1>
                             <a href="#">Buy Tickets</a>
                         </div>
                     </div>
