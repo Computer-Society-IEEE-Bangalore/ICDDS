@@ -366,7 +366,6 @@ h6 {
   text-align: center;
   font-size: 40px;
   color: #fff;
-  
   letter-spacing: 1px;
 }
 @media (max-width: 767.98px) {
@@ -1064,7 +1063,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ffffff;
   font-size: 45px;
   font-weight: 700;
-  
+
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
