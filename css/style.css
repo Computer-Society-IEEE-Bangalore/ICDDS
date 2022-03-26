@@ -87,7 +87,6 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 
-
 .image-holder-program {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -111,7 +110,6 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 
-
 .position {
   text-align: center;
   font-size: 15px;
@@ -119,7 +117,6 @@ h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-
 
 @media (max-width: 768px) {
   .image-holder {
@@ -361,11 +358,10 @@ h6 {
   text-align: left;
   font-size: 45px;
   color: #fff;
-  /* text-transform: uppercase; */
   letter-spacing: 1px;
 }
 
-.banner1-header1{
+.banner1-header1 {
   margin-bottom: 20px;
   text-align: center;
   font-size: 45px;
@@ -374,14 +370,14 @@ h6 {
   letter-spacing: 1px;
 }
 @media (max-width: 767.98px) {
-.banner1-header1{
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 25px;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}}
+  .banner1-header1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+}
 .banner .banner-nav {
   text-align: right;
 }
@@ -1582,7 +1578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.authorbtn a{
- width: 100%;
- color: #000; 
+.authorbtn a {
+  width: 100%;
+  color: #000;
 }
