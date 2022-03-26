@@ -364,13 +364,14 @@ h6 {
 .banner1-header1 {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   color: #fff;
-  text-transform: uppercase;
+  
   letter-spacing: 1px;
 }
 @media (max-width: 767.98px) {
   .banner1-header1 {
+    margin: 30px;
     margin-bottom: 20px;
     text-align: center;
     font-size: 25px;
@@ -1063,7 +1064,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ffffff;
   font-size: 45px;
   font-weight: 700;
-  text-transform: uppercase;
+  
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
