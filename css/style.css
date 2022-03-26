@@ -784,7 +784,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-des p {
   margin: 0;
-  padding: 25px 30px;
+  padding: 10px 30px;
   color: #ffffff;
   font-weight: 300;
 }
@@ -890,7 +890,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speaker .content-col {
-  padding: 25px 30px;
+  padding: 0;
   text-align: left;
 }
 
