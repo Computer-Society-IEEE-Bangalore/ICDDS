@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Conference Venue | ICDDS</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
 
-        <!-- Favicons -->
-        <link href="img/favicon.ico" rel="icon">
-        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+<head>
+    <meta charset="utf-8">
+    <title>Conference Venue | ICDDS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900" rel="stylesheet"> 
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <!-- Bootstrap CSS File -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900"
+        rel="stylesheet">
 
-        <!-- Libraries CSS Files -->
-        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="vendor/animate/animate.min.css" rel="stylesheet">
-        <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-        <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS File -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Main Stylesheet File -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Libraries CSS Files -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/animate/animate.min.css" rel="stylesheet">
+    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <body>
-<!-- Header Start -->
-<link href="css/style.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-<script type="text/javascript">
-  (function($) { // Begin jQuery
-    $(function() { // DOM ready
-      // If a link has a dropdown, add sub menu toggle.
-      $('nav ul li a:not(:only-child)').click(function(e) {
-        $(this).siblings('.nav-dropdown').toggle();
-        // Close one dropdown when selecting another
-        $('.nav-dropdown').not($(this).siblings()).hide();
-        e.stopPropagation();
-      });
-      // Clicking away from dropdown will remove the dropdown class
-      $('html').click(function() {
-        $('.nav-dropdown').hide();
-      });
-      // Toggle open and close nav styles on click
-      $('#nav-toggle').click(function() {
-        $('nav ul').slideToggle();
-      });
-      // Hamburger to X toggle
-      $('#nav-toggle').on('click', function() {
-        this.classList.toggle('active');
-      });
-    }); // end DOM ready
-  })(jQuery); // end jQuery
-  </script>
+<body>
+    <!-- Header Start -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+        (function ($) { // Begin jQuery
+            $(function () { // DOM ready
+                // If a link has a dropdown, add sub menu toggle.
+                $('nav ul li a:not(:only-child)').click(function (e) {
+                    $(this).siblings('.nav-dropdown').toggle();
+                    // Close one dropdown when selecting another
+                    $('.nav-dropdown').not($(this).siblings()).hide();
+                    e.stopPropagation();
+                });
+                // Clicking away from dropdown will remove the dropdown class
+                $('html').click(function () {
+                    $('.nav-dropdown').hide();
+                });
+                // Toggle open and close nav styles on click
+                $('#nav-toggle').click(function () {
+                    $('nav ul').slideToggle();
+                });
+                // Hamburger to X toggle
+                $('#nav-toggle').on('click', function () {
+                    this.classList.toggle('active');
+                });
+            }); // end DOM ready
+        })(jQuery); // end jQuery
+    </script>
 
-<!-- Header Start -->
- <header id="header">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Header Start -->
+    <header id="header">
         <div class="container-fluid">
             <div id="logo" class="pull-left">
                 <!-- Uncomment below if you prefer to use text logo -->
-                <h2><a href="index.html" class="scrollto">ICDDS</a></h2> 
+                <h2><a href="index.html" class="scrollto">ICDDS</a></h2>
                 <!-- <a href="/">ICDDS <img src="img/logo.png" alt="Logo" /></a> -->
             </div>
             <nav id="nav-menu-container">
@@ -73,21 +75,21 @@
                     <li class="menu-active"><a href="index.html">Home</a></li>
 
                     <li><a href="#">Call for Papers</a>
-                      <ul class="nav-dropdown">
-                        <li><a href="Foundational-Research.html">Foundational Research</a></li>
-                        <li><a href="Systems-Research.html">Systems Research</a></li>
-                        <li><a href="Applications.html">Applications</a></li>
-                      </ul>
+                        <ul class="nav-dropdown">
+                            <li><a href="Foundational-Research.html">Foundational Research</a></li>
+                            <li><a href="Systems-Research.html">Systems Research</a></li>
+                            <li><a href="Applications.html">Applications</a></li>
+                        </ul>
                     </li>
 
                     <li><a href="#">Committee</a>
 
-                    <ul class="nav-dropdown">
-            <li><a href="Organizing-Committee.html">Organizing Committee</a></li>
-            <li><a href="Program-Committee.html">Program Committee</a></li>
-            
-          </ul>
-</li>
+                        <ul class="nav-dropdown">
+                            <li><a href="Organizing-Committee.html">Organizing Committee</a></li>
+                            <li><a href="Program-Committee.html">Program Committee</a></li>
+
+                        </ul>
+                    </li>
 
 
                     <li><a href="venue.html">Venue</a></li>
@@ -99,124 +101,134 @@
         </div>
     </header>
     <!-- #header end -->
-        <!-- #header end -->
+    <!-- #header end -->
 
-        <!-- Banner Section Start-->
-        <section class="banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-6">
-                                 <h1 class="banner-header">
-                                    Conference Venue
-                                </h1>
-                            </div>
-                            <div class="col-md-6">
-                                 <p class="banner-nav">
-                                  <img src="img/IEEE-CS-BangaloreChapterOrange.png" width="190px"><br>
-                                    <span class="banner-box">
-                                        <a href="index.html">Home</a>
-                                        <a href="venue.html">Conference Venue</a>
-                                    </span>
-                                </p>
-                            </div>
+    <!-- Banner Section Start-->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="banner-header">
+                                Conference Venue
+                            </h1>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Banner Section end -->
-
-        <!-- Venue Section Start -->
-        <section id="venue">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="img-col">
-                            <img class="img-fluid" src="img/BMS COLLEGE OF ENGINEERING 2.jpg">
-                        </div>
-                    </div>
-                    <div class="col-md-6 des-cols">
-                        <div class="des-col">
-                            <h2 >Conference Venue</h2>
-                            <h3>B.M.S. College of Engineering</h3>
-                            <h4> Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka 560019</h4>
-                            <p>
-                            B.M.S. College of Engineering is a private engineering college in Basavanagudi, Bangalore, India. It was started in 1946 by Bhusanayana Mukundadas Sreenivasaiah and is run by the B.M.S. Educational Trust. It is affiliated with Visvesvaraya Technological University and became autonomous in 2008.  
+                        <div class="col-md-6">
+                            <p class="banner-nav">
+                                <img src="img/IEEE-CS-BangaloreChapterOrange.png" width="190px"><br>
+                                <span class="banner-box">
+                                    <a href="index.html">Home</a>
+                                    <a href="venue.html">Conference Venue</a>
+                                </span>
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>    
-        </section>
-        <div class="row">
-        <div class="col-md-8">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4599577246213!2d77.56522136482171!3d12.942393090874972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1647757828442!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div class="col-md-2">
-          <br>
-        <h2 style="font-size: larger;">Academic Partners</h2>
-                        
-                        <img class="" src="img/APPCAIR LOGO.jpg"  width="170px;" height="150px";/>
-                        <img class="" src="img/BITS PILANI GOA LOGO.jpg" width="170px;" height="200px";/>
-                        <img class="" src="img/BMS LOGO.jpg" width="170px;" height="150px"; />
-                        
-        </div>
-        <div class="col-md-2">
-        <h2><br><br> </h2>
-                        <img class="" src="img/RV LOGO.jpg" width="170px;" height="150px";/>
-                        <img class="" src="img/VVCE LOGO.jpg" width="170px;" height="150px";/>
-                        <img class="" src="img/MIT LOGO.jpg" width="170px;"  />
-        </div>
-        </div>
-        <!-- Footer Starts-->
-        <!-- Footer Start -->
-<footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                  <div class="social-links">
-                    <a href="https://twitter.com/ieeecsbs" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://facebook.com/ieeecsbsc" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://instagram.com/ieeecsbs" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <!-- <a href="#" class="google-plus"><i class="fa fa-youtube"></i></a> -->
-                    <a href="https://www.linkedin.com/in/ieeecsbs/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                </div>
-                </div>
-
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Banner Section end -->
 
-    <div class="container">
-        <div class="copyright">
-            &copy; 2022 <a href="https://www.icdds.org">ICDDS</a>. All Rights Reserved.<br>
-            Organized By <a href="https://www.cs.ieeebangalore.org/">IEEE Computer Society Banglore Chapter</a>
+    <!-- Venue Section Start -->
+    <section id="venue">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-col">
+                        <img class="img-fluid" src="img/BMS COLLEGE OF ENGINEERING 2.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 des-cols">
+                    <div class="des-col">
+                        <h2>Conference Venue</h2>
+                        <h3>B.M.S. College of Engineering</h3>
+                        <h4> Bull Temple Rd, Basavanagudi, Bengaluru, Karnataka 560019</h4>
+                        <p>
+                            B.M.S. College of Engineering is a private engineering college in Basavanagudi, Bangalore,
+                            India. It was started in 1946 by Bhusanayana Mukundadas Sreenivasaiah and is run by the
+                            B.M.S. Educational Trust. It is affiliated with Visvesvaraya Technological University and
+                            became autonomous in 2008.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="row">
+        <div class="col-md-8">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4599577246213!2d77.56522136482171!3d12.942393090874972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae158b11e34d2f%3A0x5f4adbdbab8bd80f!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1647757828442!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-2">
+            <br>
+            <h2 style="font-size: larger;">Academic Partners</h2>
+
+            <img class="" src="img/APPCAIR LOGO.jpg" width="170px;" height="150px" ; />
+            <img class="" src="img/BITS PILANI GOA LOGO.jpg" width="170px;" height="200px" ; />
+            <img class="" src="img/BMS LOGO.jpg" width="170px;" height="150px" ; />
+
+        </div>
+        <div class="col-md-2">
+            <h2><br><br> </h2>
+            <img class="" src="img/RV LOGO.jpg" width="170px;" height="150px" ; />
+            <img class="" src="img/VVCE LOGO.jpg" width="170px;" height="150px" ; />
+            <img class="" src="img/MAHE-logo-high-res.jpg" width="170px;" />
         </div>
     </div>
-</footer>
-<!-- #footer end -->
-        <!-- Footer Ends-->
+    <!-- Footer Starts-->
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="social-links">
+                            <a href="https://twitter.com/ieeecsbs" class="twitter" target="_blank"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a href="https://facebook.com/ieeecsbsc" class="facebook" target="_blank"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="https://instagram.com/ieeecsbs" class="instagram" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                            <!-- <a href="#" class="google-plus"><i class="fa fa-youtube"></i></a> -->
+                            <a href="https://www.linkedin.com/in/ieeecsbs/" class="linkedin" target="_blank"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
 
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        <!-- Uncomment below i you want to use a preloader -->
-        <!-- <div id="preloader"></div> -->
+                </div>
+            </div>
+        </div>
 
-        <!-- JavaScript Libraries -->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/jquery/jquery-migrate.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="vendor/easing/easing.min.js"></script>
-        <script src="vendor/superfish/hoverIntent.js"></script>
-        <script src="vendor/superfish/superfish.min.js"></script>
-        <script src="vendor/waypoints/waypoints.min.js"></script>
-        <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
-        <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
+        <div class="container">
+            <div class="copyright">
+                &copy; 2022 <a href="https://www.icdds.org">ICDDS</a>. All Rights Reserved.<br>
+                Organized By <a href="https://www.cs.ieeebangalore.org/">IEEE Computer Society Banglore Chapter</a>
+            </div>
+        </div>
+    </footer>
+    <!-- #footer end -->
+    <!-- Footer Ends-->
 
-        <!-- Main Javascript File -->
-        <script src="js/main.js"></script>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
 
-    </body>
+    <!-- JavaScript Libraries -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery-migrate.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/easing/easing.min.js"></script>
+    <script src="vendor/superfish/hoverIntent.js"></script>
+    <script src="vendor/superfish/superfish.min.js"></script>
+    <script src="vendor/waypoints/waypoints.min.js"></script>
+    <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+    <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+    <!-- Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
