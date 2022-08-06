@@ -1668,3 +1668,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 20px;
   font-weight: 800;
 }
+
+.para1{
+ margin-top:2%;
+  font-size: 20px;
+   margin-left:10%;
+  /* margin-right:10%; */ 
+}
+
+.para1 a{
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 35%;
+  
+  }
+  }
