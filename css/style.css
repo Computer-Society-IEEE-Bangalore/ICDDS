@@ -1686,3 +1686,67 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   }
   }
+
+
+
+
+
+
+
+
+
+
+/* ================================================= */
+/* ------------------ Index Speaker Style ----------------- */
+/* ================================================= */
+
+#indexspeaker{
+  
+  position: relative;
+  padding: 80px 0 5px 0;
+  background: #d2691e;
+}
+
+#indexspeaker .container {
+  max-width: 700px;
+}
+
+#indexspeaker .row {
+  padding-top: 45px;
+  border-bottom: 1px dotted #666;
+}
+
+#indexspeaker .row:first-child {
+  padding-top: 0;
+}
+
+#indexspeaker .text-right {
+  border-right: 1px dotted #666;
+}
+
+#indexspeaker h2 {
+  margin: 0;
+}
+#indexspeaker h3 {
+  color: #fff;
+}
+#indexspeaker p{
+  color: #fff;
+  font-size: 25px;
+}
+
+@media (max-width: 575.98px) {
+  #indexspeaker h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+
+/* ---------------------- */
+@media (max-width: 575.98px) {
+  .registration{
+    width: 100%;
+    
+  }
+}
