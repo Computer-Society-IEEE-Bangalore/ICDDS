@@ -1689,13 +1689,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-
-
-
-
-
-
-
 /* ================================================= */
 /* ------------------ Index Speaker Style ----------------- */
 /* ================================================= */
@@ -1749,4 +1742,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 100%;
     
   }
+}
+
+
+/* ROLLING NOTIFICATION : MARQUEE */
+
+.notification{
+  font-size: 25px;
+  color: red;
 }
