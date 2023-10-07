@@ -146,6 +146,13 @@ h6 {
   z-index: 997;
 }
 
+
+.container1{  
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+}
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 10px 0;
@@ -643,6 +650,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto;
   max-width: 700px;
   text-align: center;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+}
+
+#card{
+  margin: auto;
 }
 
 .section-header h3 {
@@ -1786,16 +1802,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-.card {
+ .card {
   z-index: 1;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 100%;
+  width:600px;
   border-radius: 5px;
 }
-
-.card:hover {
+ .card:hover {
   
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -1809,10 +1824,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .containerhome{
   /* padding: 8px 16px; */
   color: black;
-
-  
+  margin: auto;
+  display: flex;
 }
-
 .pdfviewer{
   width: 100%;
   height: 100%;
