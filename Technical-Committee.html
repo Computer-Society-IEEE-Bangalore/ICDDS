@@ -1,569 +1,712 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Technical Program Committee | ICDDS</title>
-    <meta name="keywords" content="International Conference on Data Decision and Systems, ICDDS 2023, ieeecsbc, IEEE COMPUTER SOCIETY BANGALORE CHAPTER, " >
-    <meta content="Rapid advances and growth in connected world across different application domains are fast pacing the data volumes generated from range of devices. Such high growth is further endorsed by digital transformation, adoption of advanced Internet of Things (IoT) solutions, cyber physical systems, and Smart Things. Data being the centre of innovative systems, its overall realization in solution building depends on several aspects such as the quality of data; data management; computation; knowledge discovery; decision support, etc.
-    ICDDS’23 aims to look broadly at data based innovation and technologies in interdisciplinary areas. The conference considers all aspects of data and decision science, applications, solution design and system challenges in all such new paradigms ranging from theory to applied research." name="description">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta
+      name="keywords"
+      content="International Conference on Data Decision and Systems, ICDDS 2023, ieeecsbc, IEEE COMPUTER SOCIETY BANGALORE CHAPTER, "
+    />
+    <meta
+      content="Rapid advances and growth in connected world across different application domains are fast pacing the data volumes generated from range of devices. Such high growth is further endorsed by digital transformation, adoption of advanced Internet of Things (IoT) solutions, cyber physical systems, and Smart Things. Data being the centre of innovative systems, its overall realization in solution building depends on several aspects such as the quality of data; data management; computation; knowledge discovery; decision support, etc.
+    ICDDS’23 aims to look broadly at data based innovation and technologies in interdisciplinary areas. The conference considers all aspects of data and decision science, applications, solution design and system challenges in all such new paradigms ranging from theory to applied research."
+      name="description"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0"
+    />
 
     <!-- Favicons -->
-    <link href="img/favicon.ico" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700,900"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS File -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Libraries CSS Files -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/animate/animate.min.css" rel="stylesheet">
-    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link
+      href="vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="vendor/animate/animate.min.css" rel="stylesheet" />
+    <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link
+      href="vendor/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Header Start -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script type="text/javascript">
-        (function ($) { // Begin jQuery
-            $(function () { // DOM ready
-                // If a link has a dropdown, add sub menu toggle.
-                $('nav ul li a:not(:only-child)').click(function (e) {
-                    $(this).siblings('.nav-dropdown').toggle();
-                    // Close one dropdown when selecting another
-                    $('.nav-dropdown').not($(this).siblings()).hide();
-                    e.stopPropagation();
-                });
-                // Clicking away from dropdown will remove the dropdown class
-                $('html').click(function () {
-                    $('.nav-dropdown').hide();
-                });
-                // Toggle open and close nav styles on click
-                $('#nav-toggle').click(function () {
-                    $('nav ul').slideToggle();
-                });
-                // Hamburger to X toggle
-                $('#nav-toggle').on('click', function () {
-                    this.classList.toggle('active');
-                });
-            }); // end DOM ready
-        })(jQuery); // end jQuery
+      (function ($) {
+        // Begin jQuery
+        $(function () {
+          // DOM ready
+          // If a link has a dropdown, add sub menu toggle.
+          $("nav ul li a:not(:only-child)").click(function (e) {
+            $(this).siblings(".nav-dropdown").toggle();
+            // Close one dropdown when selecting another
+            $(".nav-dropdown").not($(this).siblings()).hide();
+            e.stopPropagation();
+          });
+          // Clicking away from dropdown will remove the dropdown class
+          $("html").click(function () {
+            $(".nav-dropdown").hide();
+          });
+          // Toggle open and close nav styles on click
+          $("#nav-toggle").click(function () {
+            $("nav ul").slideToggle();
+          });
+          // Hamburger to X toggle
+          $("#nav-toggle").on("click", function () {
+            this.classList.toggle("active");
+          });
+        }); // end DOM ready
+      })(jQuery); // end jQuery
     </script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      table {
+        margin-top: 20px;
+        width: 70%;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: #faa41a;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+      table.center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Header Start -->
     <header id="header">
-        <div class="container-fluid">
-            <div id="logo" class="pull-left">
-                <!-- Uncomment below if you prefer to use text logo -->
-                <h2><a href="index.html" class="scrollto">ICDDS</a></h2>
-                <!-- <a href="/">ICDDS <img src="img/logo.png" alt="Logo" /></a> -->
-            </div>
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <!-- <li class="menu-active"><a href="index.html">Home</a></li> -->
-
-                    <li><a href="#">Call for Papers</a>
-                        <ul class="nav-dropdown">
-                            <li><a href="Foundational-Research.html">Foundational Research</a></li>
-                            <li><a href="Systems-Research.html">Systems Research</a>
-                            </li>
-                            <li><a href="Applications.html">Applications</a></li>
-                            <li><a href="AuthorGuide.html">Author's Guidelines</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="Program-Schedule.html">Program Schedule</a></li>
-                    <li><a href="#">Committee</a>
-
-                        <ul class="nav-dropdown">
-                            <li><a href="Technical-Committee.html" target="_blank" rel="noopener noreferrer">Technical Program Committee</a></li>
-                            <li><a href="Organizing-Committee.html">Organizing Committee</a></li>
-                            <!--<li><a href="Program-Committee.html">Program Committee</a></li>-->
-
-                        </ul>
-                    </li>
-                    <li><a href="speakers.html">Speakers</a></li>
-                    <li><a href="venue.html">Venue</a></li>
-                    <!-- <li><a href="ticket.html">Tickets</a></li> -->
-                    <li><a href="contact.html">Contact</a></li>
-                    <li>
-                        <a href="#">Archives</a>
-                        <ul class="nav-dropdown">
-                            <li><a href="2022.html">2022</a></li>
-                        </ul>
-                    </li>
-                    
-                    
-                    <li><a href="registration.html">Registration</a></li>
-                </ul>
-            </nav><!-- #nav-menu-container -->
+      <div class="container-fluid">
+        <div id="logo" class="pull-left">
+          <!-- Uncomment below if you prefer to use text logo -->
+          <h2><a href="index.html" class="scrollto">ICDDS</a></h2>
+          <!-- <a href="/">ICDDS <img src="img/logo.png" alt="Logo" /></a> -->
         </div>
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <!-- <li class="menu-active"><a href="index.html">Home</a></li> -->
+
+            <li>
+              <a href="#">Call for Papers</a>
+              <ul class="nav-dropdown">
+                <li>
+                  <a href="Foundational-Research.html">Foundational Research</a>
+                </li>
+                <li><a href="Systems-Research.html">Systems Research</a></li>
+                <li><a href="Applications.html">Applications</a></li>
+                <li><a href="AuthorGuide.html">Author's Guidelines</a></li>
+              </ul>
+            </li>
+            <li><a href="Program-Schedule.html">Program Schedule</a></li>
+            <li>
+              <a href="#">Committee</a>
+
+              <ul class="nav-dropdown">
+                <li>
+                  <a
+                    href="Technical-Committee.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Technical Program Committee</a
+                  >
+                </li>
+                <li>
+                  <a href="Organizing-Committee.html">Organizing Committee</a>
+                </li>
+                <!--<li><a href="Program-Committee.html">Program Committee</a></li>-->
+              </ul>
+            </li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="venue.html">Venue</a></li>
+            <!-- <li><a href="ticket.html">Tickets</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="#">Archives</a>
+              <ul class="nav-dropdown">
+                <li><a href="2022.html">2022</a></li>
+              </ul>
+            </li>
+
+            <li><a href="registration.html">Registration</a></li>
+          </ul>
+        </nav>
+        <!-- #nav-menu-container -->
+      </div>
     </header>
     <!-- #header end -->
     <!-- Header end -->
 
     <!-- Banner Section Start-->
     <section class="banner">
-        <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h1 class="banner-header">
-                                Technical Program Committee
-                            </h1>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="banner-nav">
-                                <img src="img/IEEE-CS-BangaloreChapterOrange.png" width="190px"><br>
-                                <span class="banner-box">
-                                    <a href="index.html">Home</a>
-                                    <a href="Technical-Committee.html">Technical Program Committee</a>
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              <div class="col-md-6">
+                <h1 class="banner-header">Technical Program Committee</h1>
+              </div>
+              <div class="col-md-6">
+                <p class="banner-nav">
+                  <img
+                    src="img/IEEE-CS-BangaloreChapterOrange.png"
+                    width="190px"
+                  /><br />
+                  <span class="banner-box">
+                    <a href="index.html">Home</a>
+                    <a href="Technical-Committee.html"
+                      >Technical Program Committee</a
+                    >
+                  </span>
+                </p>
+              </div>
             </div>
-        </div>
-    </section>
-    <!-- Banner Section end -->
-
-
-    <div class="row">
-        <div class="col-md-9">
-
-            <!-- Agenda Section Start -->
-            <section id="agenda">
-                <div class="container">
-                    <header class="section-header" style="display: flex; flex-direction: row; align-content: center; justify-content: center;">
-                        <div class="nameTech" style="width: 400px;">
-                            <h6 style="background-color: #faa41a; width: 100%; color: black;">Name</h6>
-                            <p>Abhishek Appaji</p>
-                            <p>Aditya		Challa</p>
-                            <p>Ajay Kumara </p>
-                            <p>Anand Kumar</p>
-                            <p>Anisha		Rodrigues</p>
-                            <p>Anita		Dixit</p>
-                            <p>Anupam		Pattanayak</p>
-                            <p>Anurag		Satpathy</p>
-                            <p>Archana		Mathur</p>
-                            <p>Arun		Kumar</p>
-                            <p>ARUN		PARAMESWARAN</p>
-                            <p>B Sathish</p>
-                            <p>Balaji		N</p>
-                            <p>Basavaraj	</p>
-                            <p>Bhabendu		Mohanta</p>
-                            <p>Bhagath		Parabattina</p>
-                            <p>Bharatesh		Chakravarthi</p>
-                            <p>Biswajeet Sethi</p>
-                            <p>Chandan		Chetri</p>
-                            <p>Debashisha		Jena</p>
-                            <p>Dr		Nagarathna</p>
-                            <p>Dr Kiran		M</p>
-                            <p>Dr Ramakrishna		Hegde</p>
-                            <p>Dr Subidh		Ali</p>
-                            <p>Dr Thippeswamy		K</p>
-                            <p>Dr.		Hemachandra Gudimindla</p>
-                            <p>Dr. Anjan		Krishnamurthy</p>
-                            <p>Dr. Asha		Manek</p>
-                            <p>Dr. Asha.		T</p>
-                            <p>Dr. Jalesh		Kumar</p>
-                            <p>Dr. Manjunath Aradhya	</p>
-                            <p>Dr. Naveen</p>
-                            <p>Dr. Pramod Kumar		S</p>
-                            <p>Dr. Ratneshwar	</p>
-                            <p>Dr. Shiva Darshan</p>
-                            <p>Dr. Shyam		Lal</p>
-                            <p>Dr. VASAVI		BANDE</p><br>
-                            <p>Dr. Vinay		Jadoun</p>
-                            <p>Dr.Padmashree		T</p>
-                            <p>Dr.Sathish		Kumar</p>
-                            <p>Emmanuel Shubhakar</p>
-                            <p>Jaydeep		Das</p>
-                            <p>Jidesh		Padikkal</p>
-                            <p>Kakelli Anil		Kumar</p>
-                            <p>Kaushal		Sengar</p>
-                            <p>Keshav		Sood</p>
-                            <p>Khoirom Johnson		Singh</p>
-                            <p>Kodeeswara		Kumaran</p>
-                            <p>Krishnan		CMC</p>
-                            <p>Latha		Tamilselvan</p><br>
-                            <p>Mamatha		Balipa</p>
-                            <p>Manoj Kumar		Kar</p>
-                            <p>Meenaxi		Raikar</p>
-                            <p>Mehtab		Singh</p>
-                            <p>Min		Yu</p><br>
-                            <p>Monika		Mangla</p>
-                            <p></p>
-                            <p>Muzammil		Parvez</p>
-                            <p>NAGARAJA		S</p>
-                            <p>Nagaratna		Chittaragi</p>
-                            <p>NAGARJUN		E</p>
-                            <p>Naveen		Aradhya</p>
-                            <p>Nithin		Raj</p>
-                            <p>P		Maheswar Reddy</p>
-                            <p>Pooja		Chaturvedi</p><br>
-                            <p>Pradeep		Kanchan</p>
-                            <p>Prakash Gajanan Burade	</p>
-                            <p>Pramit		Mazumdar</p><br>
-                            <p>Pramod		Kumar	</p>
-                            <p>PRAVEENA		T</p>
-                            <p>Priya		L</p>
-                            <p>Pushparaj		Shetty</p>
-                            <p>Qian		Li	</p>
-                            <p>Raghavendra		C K</p>
-                            <p>Rahul		Makkar	</p>
-                            <p>Rajat Subhra		Chakraborty</p>
-                            <p>Ravi		Barpanda</p>
-                            <p>Ricky		Mohanty</p>
-                            <p>Rimjhim		Singh</p>
-                            <p>Rongxin		Xu</p>
-                            <p>Roshan		Fernandes</p>
-                            <p>S Krishna		Rao</p><br>
-                            <p>Sahana		Prabhu</p>
-                            <p>Sanjeev		Dhawan</p>
-                            <p>Sankara		Narayanan S</p><br>
-                            <p>Santosh		Satapathy</p><br>
-                            <p>Sara		Ali</p>
-                            <p>Sathya		Arunachalam</p>
-                            <p>shefali		Jagwani</p>
-                            <p>Shu		Li</p>
-                            <p>Smriti		Bhandari</p>
-                            <p>Snehanshu		Saha</p>
-                            <p>Sobhana		N V</p>
-                            <p>Spoorthi		Shetty</p>
-                            <p>Sravan		Danda	</p>
-                            <p>Sridevi		Saralaya</p>
-                            <p>Stefka		FIdanova</p><br><br>
-                            <p>Suchitra		V</p>
-                            <p>Sudeepa		Dey</p><br>
-                            <p>sujithra		m</p>
-                            <p>Suresh		Papneja</p>
-                            <p>Tanweer		Ali</p>
-                            <p>Veeraiah		Duggineni</p><br>
-                            <p>veeraswamy		a</p><br>
-                            <p>Vinod		Joshi</p>
-                            <p>Vishal		Moyal</p>
-                            <p>Vikas Singh</p>
-                            <p>Vivekraj		K	</p><br>
-                            <p>Wenjia		Niu</p>
-                            <p>Xin		Han</p>
-                            <p>Yukata		Watanobe</p>
-                           
-                        </div>
-                        <p class="affiliation" style="width: 400px;">
-                            <h6 style="background-color: #faa41a; width: 100%; color: black;">Affiliation</h6>
-                            <p>BMS CE	India</p>
-                            <p>BITS Pilani KK Birla Goa Campus</p>
-                            <p>Lenoir-Rhyne University, NC USA	</p>
-                            <p>National Institute of Technology Karnataka</p>
-                            <p>NMAM Institute of Technology</p>
-                            <p>SDM College of Engineering and Technology</p>
-                            <p>Raja N. L. Khan Women's College</p>
-                            <p>National Institute of Technology, Rourkela	</p>
-                            <p>Nitte Meenakshi Institute of Technology	India</p>
-                            <p>NIT Rourkela</p>
-                            <p>MIT MANIPAL</p>
-                            <p>RV College of Engineering</p>
-                            <p>NMAM Institute of Technology</p>
-                            <p>NITK, Surathkal</p>
-                            <p>GITAM Deemed to be University</p>
-                            <p>Lakireddy Bali Reddy College of Engineering </p>
-                            <p>Arizona State University	United States</p>
-                            <p>IIT kharagpur</p>
-                            <p>Jorhat Engineering College</p>
-                            <p>NITK, Surathkal	India</p>
-                            <p>PES College of Engineering</p>
-                            <p>NITK suratkal</p>
-                            <p>Vidyavardhaka College of Engineering</p>
-                            <p>IIT Bhilai</p>
-                            <p>Vtu</p>
-                            <p>Ramaiah Institute of Technology	India</p>
-                            <p>BMSIT and Management</p>
-                            <p>Global Academy of Technology	India</p>
-                            <p>Bangalore Institute of Technology</p>
-                            <p>JNNCE Shimoga	</p>
-                            <p>JSS S&T University, Mysore</p>
-                            <p>IIIT Vadodoara</p>
-                            <p>JNNCE, Shimoga	India</p>
-                            <p>MIET Meerut</p>
-                            <p>Manipal Institute of Technology Bengaluru</p>
-
-                            <p>NIT Karnataka</p>
-                            <p>Siddhartha Institute of Engineering and Technology</p>
-                            <p>Manipal Institute of Technology,Manipal	</p>
-                            <p>R.V.College of Engineering</p>
-                            <p>RNSIT</p>
-                            <p>MNIT Jaipur	</p>
-                            <p>KIIT Deemed to be University</p>
-                            <p>National Institute of Technology Karnataka</p>
-                            <p>Vellore Institute of Technology, Vellore</p>
-                            <p>National Institute of Technology Raipur</p>
-                            <p>Deakin Uni</p>
-                            <p>Indian Institute of Technology Roorkee</p>
-                            <p>MSRIT</p>
-                            <p>NITK Surathkal	</p>
-                            <p>B.S.Abdur Rahman Crescent Institute of Science and Technology</p>
-                            <p>NMAMIT</p>
-                            <p>Tolani Maritime Institute Pune</p>
-                            <p>K L E Technological University, Hubli</p>
-                            <p>Chandigarh University</p>
-                            <p>Institute of Information Engineering , Chinese Academy of Sciences</p>
-                            <p>Dwarkadas J Sanghvi College of Engineering</p>
-                            <p>KL University</p>
-                            <p>	RV COLLEGE OF ENGINEERING</p>
-                            <p>Siddaganga Institute of Technology</p>
-                            <p>University Visvesvaraya College of Engineering</p>
-                            <p>JSS Academy of Technical Education</p>
-                            <p>Government Engineering College Wayanand</p>
-                            <p>National Institute of Technology Agartala</p>
-                            <p>Institute of Technology, Nirma University, Ahmedabad</p>
-                            <p>NMAMIT	</p>
-                            <p>Sandip University Nashik	</p>
-                            <p>Indian Institute of Information Technology Vadodara</p>
-                            <p>Assistant Professor,MIT</p>
-                            <p>RV COLLEGE OF ENGINEERING</p>
-                            <p>Rajalakshmi engineering college</p>
-                            <p>NITK	India</p>
-                            <p>Curtin University</p>
-                            <p>B N M Institute of Technology</p>
-                            <p>The LNMIIT	</p>
-                            <p>IIT Kharagpur</p>
-                            <p>VIT-AP University</p>
-                            <p>ASBM UNIVERSITY</p>
-                            <p>Amrita vishwa vidyapeetham</p>
-                            <p>	Hunan University</p>
-                            <p>NMAM Institute of Technology</p>
-                            <p>Siddhartha Institute of Engineering & Technology	</p>
-                            <p>RBEI</p>
-                            <p>UIET, Kurukshetra University Kurukshetra	India</p>
-                            <p>Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology</p>
-                            <p>Pandit Deendayal Energy University</p>
-                            <p>Shadan Women's college of Engineering and Technology</p>
-                            <p>Rajalakshmi Engineering College</p>
-                            <p>NMIT, Bangalore</p>
-                            <p>IIE, CAS	</p>
-                            <p>LF</p>
-                            <p>BITS Pilani Goa Campus</p>
-                            <p>Rajiv Gandhi Institute of Technology, Kottayam</p>
-                            <p>	NMAMIT,Nitte</p>
-                            <p>BITS Pilani K K Birla Goa Campus</p>
-                            <p>	SJEC	</p>
-                            <p>Bulgarian Academy of Sciences, Institute of Mathematics and Informatics and Institute of Information and Communication Technologies</p>
-                            <p>National Institute of Technology Karnataka,Surathkal</p>
-                            <p>PES university</p>
-                            <p>Coimbatore institute of technology</p>
-                            <p>Ericsson Global India Pvt Ltd    </p>
-                            <p>Manipal Institute of Technology, Manipal	India</p>
-                            <p>Lakireddy Bali Reddy College of Engineering</p>
-                            <p>Koneru Lakshmaiah Educational Foundation,Vaddeswaram, Guntur, Andhra Pradesh, India.	</p>
-                            <p>Manipal Institute of Technology, Manipal	India</p>
-                            <p>SVKM's Institute of Technology, Dhule</p>
-                            <p>National Institute of Technology Karnataka</p>
-                            <p>Indian Institute of Information Technology Dharwad</p>
-                            <p>Beijing Jiaotong University</p>
-                            <p>University of Macau</p>
-                            <p>The University of Aizu	Japan</p>
-
-                           
-                        </div>
-                        <div></div>
-                    </header>
-                    
-
-                </div>
-            </section>
-
-            
-
-
-         
-
-            
-            
-            <!--
-            <section id="agenda">
-                <div class="container">
-                    <header class="section-header">
-                        <h3>Publication Chairs</h3>
-                    </header>
-                    <div class="image-holder">
-                       
-                        <div>
-                            <img src="img/Alok-Ranjan.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Alok Ranjan</p>
-                            <p class="position">Bosch, India</p>
-                        </div>
-                        <div>
-                            <img src="img/seems_chopra.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Seema Chopra</p>
-                            <p class="position">Boeing, India</p>
-                        </div>
-                    </div>
-
-                </div>
-            </section>-->
-
-            <!--
-            <section id="agenda">
-                <div class="container">
-                    <header class="section-header">
-                        <h3>Steering Chairs</h3>
-                    </header>
-                    <div class="image-holder">
-                        <div>
-                            <img src="img/Dr.vishwas-lakkundi.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Vishwas Lakkundi</p>
-                            <p class="position">Smarten Spaces, India</p>
-                        </div>
-                        <div>
-                            <img src="img/snehansu.png" width="250px" height="250px">
-                            <p class="commitee-names">Snehansu Saha</p>
-                            <p class="position">BITS Pilani Goa, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/Prasant-Misra-413x500.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Prasant Misra</p>
-                            <p class="position">TCS Research, India</p>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="agenda">
-                <div class="container">
-                    <header class="section-header">
-                        <h3>Principal Advisors</h3>
-                    </header>
-                    <div class="image-holder">
-
-                        <div>
-                            <img src="img/geetha.jpeg" width="250px" height="250px">
-                            <p class="commitee-names">Geetha Manjunath</p>
-                            <p class="position">NIRAMAI Health Analytix, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/sadashiva_gowda.jpg" width="250px" height="250px">
-                            <p class="commitee-names">B Sadashive Gowda</p>
-                            <p class="position">VVCE, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/ravi_kumar.jpeg" width="250px" height="250px">
-                            <p class="commitee-names">Ravi Kumar V</p>
-                            <p class="position">VVCE, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/anil_rana.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Anil Rana</p>
-                            <p class="position">MIT, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/ashalatha_nayak.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Ashalatha Nayak</p>
-                            <p class="position">MIT, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/kn_subramanya.png" width="250px" height="250px">
-                            <p class="commitee-names">K.N. Subramanya</p>
-                            <p class="position">RVCE, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/Ramakanthkumar_p.jpg" width="250px" height="250px">
-                            <p class="commitee-names">Ramakanth Kumar P</p>
-                            <p class="position">RVCE, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/S.Muralidhara.jpg" width="250px" height="250px">
-                            <p class="commitee-names">S Muralidhara</p>
-                            <p class="position">BMSCE, India</p>
-
-                        </div>
-                        <div>
-                            <img src="img/souvik_bhattacharya.jpeg" width="250px" height="250px">
-                            <p class="commitee-names">Souvik Bhattacharya</p>
-                            <p class="position">BITS Pilani K K Birla Goa Campus, India</p>
-
-                        </div>
-                    </div>
-                </div>
-            </section>-->
-
-        </div>
-        <div class="col-md-2">
-            <br>
-            <center><h2 style="font-size: x-large;">Sponsors</h2></center>
-            <img class="partners" src="img/boeing.png" alt="Boeing LOGO" width="100%" height="150px"/>
           </div>
-        <!--
-        <div class="col-md-3">
-            <br>
-            <center>
-            <h3>Sponsors</h3>
-            <img class="" src="img/dozee.png" width="170px;" height="150px" alt="DOZEE LOGO" />
-            <img class="partners" src="img/boeing.png" alt="Boeing LOGO" width="170" height="150px"/>
-            <br><br><br>
-            <h3>Academic Partners</h3>
-            <img class="" src="img/APPCAIR LOGO.jpg" width="170px;" height="150px" alt="APPCAIR LOGO" />
-            <img class="" src="img/BITS PILANI GOA LOGO.jpg" width="170px;" height="200px" alt="BITS PILANI GOA LOGO" />
-            <img class="" src="img/BMS LOGO.jpg" width="170px;" height="150px" alt="BMSCE LOGO" />
-            <img class="" src="img/RV LOGO.jpg" width="170px;" height="150px" alt="RVCE LOGO" />
-            <img class="" src="img/VVCE LOGO.jpg" width="170px;" height="150px" alt="VVCE LOGO" />
-            <img class="" src="img/MAHE-logo-high-res.jpg" width="170px;" alt="MAHE LOGO" />
-        </center>
-        </div>-->
-    </div>
-    <!-- Footer Start -->
-    <!-- Footer Start -->
+        </div>
+      </div>
+    </section>
+    
+    <table class="center">
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+      </tr>
+      <tr>
+        <td>Abhishek Appaji</td>
+        <td>BMS CE, India</td>
+      </tr>
+      <tr>
+        <td>Aditya Challa</td>
+        <td>BITS Pilani KK Birla Goa Campus</td>
+      </tr>
+      <tr>
+        <td>Ajay Kumara</td>
+        <td>Lenoir-Rhyne University, NC USA</td>
+      </tr>
+      <tr>
+        <td>Anand Kumar</td>
+        <td>National Institute of Technology Karnataka</td>
+      </tr>
+      <tr>
+        <td>Anisha Rodrigues</td>
+        <td>NMAM Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>Anita Dixit</td>
+        <td>SDM College of Engineering and Technology</td>
+      </tr>
+      <tr>
+        <td>Anupam Pattanayak</td>
+        <td>Raja N. L. Khan Women's College</td>
+      </tr>
+      <tr>
+        <td>Anurag Satpathy</td>
+        <td>National Institute of Technology, Rourkela</td>
+      </tr>
+      <tr>
+        <td>Archana Mathur</td>
+        <td>Nitte Meenakshi Institute of Technology, India</td>
+      </tr>
+      <tr>
+        <td>Arun Kumar</td>
+        <td>NIT Rourkela</td>
+      </tr>
+      <tr>
+        <td>ARUN PARAMESWARAN</td>
+        <td>MIT MANIPAL</td>
+      </tr>
+      <tr>
+        <td>B Sathish</td>
+        <td>RV College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Balaji N</td>
+        <td>NMAM Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>Basavaraj</td>
+        <td>NITK, Surathkal</td>
+      </tr>
+      <tr>
+        <td>Bhabendu Mohanta</td>
+        <td>GITAM Deemed to be University</td>
+      </tr>
+      <tr>
+        <td>Bhagath Parabattina</td>
+        <td>Lakireddy Bali Reddy College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Bharatesh Chakravarthi</td>
+        <td>Arizona State University, United States</td>
+      </tr>
+      <tr>
+        <td>Biswajeet Sethi</td>
+        <td>IIT Kharagpur</td>
+      </tr>
+      <tr>
+        <td>Chandan Chetri</td>
+        <td>Jorhat Engineering College</td>
+      </tr>
+      <tr>
+        <td>Debashisha Jena</td>
+        <td>NITK, Surathkal, India</td>
+      </tr>
+      <tr>
+        <td>Dr Nagarathna</td>
+        <td>PES College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Dr Kiran M</td>
+        <td>NITK suratkal</td>
+      </tr>
+      <tr>
+        <td>Dr Ramakrishna Hegde</td>
+        <td>Vidyavardhaka College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Dr Subidh Ali</td>
+        <td>IIT Bhilai</td>
+      </tr>
+      <tr>
+        <td>Dr Thippeswamy K</td>
+        <td>VTU</td>
+      </tr>
+      <tr>
+        <td>Dr. Hemachandra Gudimindla</td>
+        <td>Ramaiah Institute of Technology, India</td>
+      </tr>
+      <tr>
+        <td>Dr. Anjan Krishnamurthy</td>
+        <td>BMSIT and Management</td>
+      </tr>
+      <tr>
+        <td>Dr. Asha Manek</td>
+        <td>Global Academy of Technology, India</td>
+      </tr>
+      <tr>
+        <td>Dr. Asha T</td>
+        <td>Bangalore Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>Dr. Jalesh Kumar</td>
+        <td>JNNCE Shimoga</td>
+      </tr>
+      <tr>
+        <td>Dr. Manjunath Aradhya</td>
+        <td>JSS S&T University, Mysore</td>
+      </tr>
+      <tr>
+        <td>Dr. Naveen</td>
+        <td>IIIT Vadodara</td>
+      </tr>
+      <tr>
+        <td>Dr. Pramod Kumar S</td>
+        <td>JNNCE, Shimoga, India</td>
+      </tr>
+      <tr>
+        <td>Dr. Ratneshwar</td>
+        <td>MIET Meerut</td>
+      </tr>
+      <tr>
+        <td>Dr. Shiva Darshan</td>
+        <td>Manipal Institute of Technology Bengaluru</td>
+      </tr>
+      <tr>
+        <td>Dr. Shyam Lal</td>
+        <td>NIT Karnataka</td>
+      </tr>
+      <tr>
+        <td>Dr. VASAVI BANDE</td>
+        <td>Siddhartha Institute of Engineering and Technology</td>
+      </tr>
+      <tr>
+        <td>Dr. Vinay Jadoun</td>
+        <td>Manipal Institute of Technology, Manipal, India</td>
+      </tr>
+      <tr>
+        <td>Dr. Padmashree T</td>
+        <td>R.V. College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Dr. Sathish Kumar</td>
+        <td>RNSIT</td>
+      </tr>
+      <tr>
+        <td>Emmanuel Shubhakar</td>
+        <td>MNIT Jaipur</td>
+      </tr>
+      <tr>
+        <td>Jaydeep Das</td>
+        <td>KIIT Deemed to be University</td>
+      </tr>
+      <tr>
+        <td>Jidesh Padikkal</td>
+        <td>National Institute of Technology Karnataka</td>
+      </tr>
+      <tr>
+        <td>Kakelli Anil Kumar</td>
+        <td>Vellore Institute of Technology, Vellore</td>
+      </tr>
+      <tr>
+        <td>Kaushal Sengar</td>
+        <td>National Institute of Technology Raipur</td>
+      </tr>
+      <tr>
+        <td>Keshav Sood</td>
+        <td>Deakin Uni</td>
+      </tr>
+      <tr>
+        <td>Khoirom Johnson Singh</td>
+        <td>Indian Institute of Technology Roorkee</td>
+      </tr>
+      <tr>
+        <td>Kodeeswara Kumaran</td>
+        <td>MSRIT</td>
+      </tr>
+      <tr>
+        <td>Krishnan CMC</td>
+        <td>NITK Surathkal</td>
+      </tr>
+      <tr>
+        <td>Latha Tamilselvan</td>
+        <td>B.S.Abdur Rahman Crescent Institute of Science and Technology</td>
+      </tr>
+      <tr>
+        <td>Mamatha Balipa</td>
+        <td>NMAMIT</td>
+      </tr>
+      <tr>
+        <td>Manoj Kumar Kar</td>
+        <td>Tolani Maritime Institute Pune</td>
+      </tr>
+      <tr>
+        <td>Meenaxi Raikar</td>
+        <td>K L E Technological University, Hubli</td>
+      </tr>
+      <tr>
+        <td>Mehtab Singh</td>
+        <td>Chandigarh University</td>
+      </tr>
+      <tr>
+        <td>Min Yu</td>
+        <td>
+          Institute of Information Engineering, Chinese Academy of Sciences
+        </td>
+      </tr>
+      <tr>
+        <td>Monika Mangla</td>
+        <td>Dwarkadas J Sanghvi College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Muzammil Parvez</td>
+        <td>KL University</td>
+      </tr>
+      <tr>
+        <td>NAGARAJA S</td>
+        <td>RV COLLEGE OF ENGINEERING</td>
+      </tr>
+      <tr>
+        <td>Nagaratna Chittaragi</td>
+        <td>Siddaganga Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>NAGARJUN E</td>
+        <td>University Visvesvaraya College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Naveen Aradhya</td>
+        <td>JSS Academy of Technical Education</td>
+      </tr>
+      <tr>
+        <td>Nithin Raj</td>
+        <td>Government Engineering College Wayanad</td>
+      </tr>
+      <tr>
+        <td>P Maheswar Reddy</td>
+        <td>National Institute of Technology Agartala</td>
+      </tr>
+      <tr>
+        <td>Pooja Chaturvedi</td>
+        <td>Institute of Technology, Nirma University, Ahmedabad</td>
+      </tr>
+      <tr>
+        <td>Pradeep Kanchan</td>
+        <td>NMAMIT</td>
+      </tr>
+      <tr>
+        <td>Prakash Gajanan Burade</td>
+        <td>Sandip University, Nashik</td>
+      </tr>
+      <tr>
+        <td>Pramit Mazumdar</td>
+        <td>Indian Institute of Information Technology Vadodara</td>
+      </tr>
+      <tr>
+        <td>Pramod Kumar</td>
+        <td>Assistant Professor, MIT</td>
+      </tr>
+      <tr>
+        <td>PRAVEENA T</td>
+        <td>RV COLLEGE OF ENGINEERING</td>
+      </tr>
+      <tr>
+        <td>Priya L</td>
+        <td>Rajalakshmi Engineering College</td>
+      </tr>
+      <tr>
+        <td>Pushparaj Shetty</td>
+        <td>NITK, India</td>
+      </tr>
+      <tr>
+        <td>Qian Li</td>
+        <td>Curtin University</td>
+      </tr>
+      <tr>
+        <td>Raghavendra C K</td>
+        <td>B N M Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>Rahul Makkar</td>
+        <td>The LNMIIT</td>
+      </tr>
+      <tr>
+        <td>Rajat Subhra Chakraborty</td>
+        <td>IIT Kharagpur</td>
+      </tr>
+      <tr>
+        <td>Ravi Barpanda</td>
+        <td>VIT-AP University</td>
+      </tr>
+      <tr>
+        <td>Ricky Mohanty</td>
+        <td>ASBM UNIVERSITY</td>
+      </tr>
+      <tr>
+        <td>Rimjhim Singh</td>
+        <td>Amrita Vishwa Vidyapeetham</td>
+      </tr>
+      <tr>
+        <td>Rongxin Xu</td>
+        <td>Hunan University</td>
+      </tr>
+      <tr>
+        <td>Roshan Fernandes</td>
+        <td>NMAM Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>S Krishna Rao</td>
+        <td>Siddhartha Institute of Engineering & Technology</td>
+      </tr>
+      <tr>
+        <td>Sahana Prabhu</td>
+        <td>RBEI</td>
+      </tr>
+      <tr>
+        <td>Sanjeev Dhawan</td>
+        <td>UIET, Kurukshetra University Kurukshetra, India</td>
+      </tr>
+      <tr>
+        <td>Sankara Narayanan S</td>
+        <td>
+          Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and
+          Technology
+        </td>
+      </tr>
+      <tr>
+        <td>Santosh Satapathy</td>
+        <td>Pandit Deendayal Energy University</td>
+      </tr>
+      <tr>
+        <td>Sara Ali</td>
+        <td>Shadan Women's College of Engineering and Technology</td>
+      </tr>
+      <tr>
+        <td>Sathya Arunachalam</td>
+        <td>Rajalakshmi Engineering College</td>
+      </tr>
+      <tr>
+        <td>Shefali Jagwani</td>
+        <td>NMIT, Bangalore</td>
+      </tr>
+      <tr>
+        <td>Shu Li</td>
+        <td>IIE, CAS</td>
+      </tr>
+      <tr>
+        <td>Smriti Bhandari</td>
+        <td>LF</td>
+      </tr>
+      <tr>
+        <td>Snehanshu Saha</td>
+        <td>BITS Pilani Goa Campus</td>
+      </tr>
+      <tr>
+        <td>Sobhana N V</td>
+        <td>Rajiv Gandhi Institute of Technology, Kottayam</td>
+      </tr>
+      <tr>
+        <td>Spoorthi Shetty</td>
+        <td>NMAMIT, Nitte</td>
+      </tr>
+      <tr>
+        <td>Sravan Danda</td>
+        <td>BITS Pilani K K Birla Goa Campus</td>
+      </tr>
+      <tr>
+        <td>Sridevi Saralaya</td>
+        <td>SJEC</td>
+      </tr>
+      <tr>
+        <td>Stefka FIdanova</td>
+        <td>
+          Bulgarian Academy of Sciences, Institute of Mathematics and
+          Informatics and Institute of Information and Communication
+          Technologies
+        </td>
+      </tr>
+      <tr>
+        <td>Suchitra V</td>
+        <td>National Institute of Technology Karnataka, Surathkal</td>
+      </tr>
+      <tr>
+        <td>Sudeepa Dey</td>
+        <td>PES university</td>
+      </tr>
+      <tr>
+        <td>Sujithra M</td>
+        <td>Coimbatore Institute of Technology</td>
+      </tr>
+      <tr>
+        <td>Suresh Papneja</td>
+        <td>Ericsson Global India Pvt Ltd</td>
+      </tr>
+      <tr>
+        <td>Tanweer Ali</td>
+        <td>Manipal Institute of Technology, Manipal, India</td>
+      </tr>
+      <tr>
+        <td>Veeraiah Duggineni</td>
+        <td>Lakireddy Bali Reddy College of Engineering</td>
+      </tr>
+      <tr>
+        <td>Veeraswamy A</td>
+        <td>
+          Koneru Lakshmaiah Educational Foundation, Vaddeswaram, Guntur, Andhra
+          Pradesh, India
+        </td>
+      </tr>
+      <tr>
+        <td>Vinod Joshi</td>
+        <td>Manipal Institute of Technology, Manipal, India</td>
+      </tr>
+      <tr>
+        <td>Vishal Moyal</td>
+        <td>SVKM's Institute of Technology, Dhule</td>
+      </tr>
+      <tr>
+        <td>Vikas Singh</td>
+        <td>National Institute of Technology Karnataka</td>
+      </tr>
+      <tr>
+        <td>Vivekraj K</td>
+        <td>Indian Institute of Information Technology Dharwad</td>
+      </tr>
+      <tr>
+        <td>Wenjia Niu</td>
+        <td>Beijing Jiaotong University</td>
+      </tr>
+      <tr>
+        <td>Xin Han</td>
+        <td>University of Macau</td>
+      </tr>
+      <tr>
+        <td>Yukata Watanobe</td>
+        <td>The University of Aizu, Japan</td>
+      </tr>
+    </table>
+
+
     <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="social-links">
-                            <a href="https://twitter.com/ieeecsbs" class="twitter" target="_blank"><i
-                                    class="fa fa-twitter"></i></a>
-                            <a href="https://facebook.com/ieeecsbsc" class="facebook" target="_blank"><i
-                                    class="fa fa-facebook"></i></a>
-                            <a href="https://instagram.com/ieeecsbs" class="instagram" target="_blank"><i
-                                    class="fa fa-instagram"></i></a>
-                            <!-- <a href="#" class="google-plus"><i class="fa fa-youtube"></i></a> -->
-                            <a href="https://www.linkedin.com/in/ieeecsbs/" class="linkedin" target="_blank"><i
-                                    class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
+      <div class="footer-top">
         <div class="container">
-            <div class="copyright">
-                &copy; 2023 <a href="https://www.icdds.org">ICDDS</a>. All Rights Reserved.<br>
-                Organized By <a href="https://www.cs.ieeebangalore.org/">IEEE Computer Society Banglore Chapter</a>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="social-links">
+                <a
+                  href="https://twitter.com/ieeecsbs"
+                  class="twitter"
+                  target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a
+                  href="https://facebook.com/ieeecsbsc"
+                  class="facebook"
+                  target="_blank"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a
+                  href="https://instagram.com/ieeecsbs"
+                  class="instagram"
+                  target="_blank"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <!-- <a href="#" class="google-plus"><i class="fa fa-youtube"></i></a> -->
+                <a
+                  href="https://www.linkedin.com/in/ieeecsbs/"
+                  class="linkedin"
+                  target="_blank"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; 2023 <a href="https://www.icdds.org">ICDDS</a>. All Rights
+          Reserved.<br />
+          Organized By
+          <a href="https://www.cs.ieeebangalore.org/"
+            >IEEE Computer Society Banglore Chapter</a
+          >
+        </div>
+      </div>
     </footer>
     <!-- #footer end -->
     <!-- #footer end -->
@@ -585,7 +728,5 @@
 
     <!-- Main Javascript File -->
     <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
