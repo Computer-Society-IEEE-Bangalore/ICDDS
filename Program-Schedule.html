@@ -29,6 +29,10 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        
+
+    </style>
 </head>
 
 <body>
@@ -61,6 +65,62 @@
             }); // end DOM ready
         })(jQuery); // end jQuery
     </script>
+    <style>
+        .ScheduleTable{
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        
+        .ScheduleTable th, .ScheduleTable td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        .ScheduleTable th {
+            background-color: #f2f2f2;
+        }
+
+        .responsive-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .responsive-table th, .responsive-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        .responsive-table th {
+            background-color: #f2f2f2;
+        }
+        
+        @media (max-width: 768px) {
+            .responsive-table {
+                border: 0;
+            }
+            
+            .responsive-table th, .responsive-table td {
+                border: 0;
+                display: block;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .ScheduleTable table {
+                border: 0;
+            }
+            
+            .ScheduleTable th, .ScheduleTable td {
+                border: 0;
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -75,46 +135,47 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <!-- <li class="menu-active"><a href="index.html">Home</a></li> -->
-
-                    <li><a href="#">Call for Papers</a>
-                        <ul class="nav-dropdown">
-                            <li><a href="Foundational-Research.html">Foundational Research</a></li>
-                            <li><a href="Systems-Research.html">Systems Research</a></li>
-                            <li><a href="Applications.html">Applications</a></li>
-                            <li><a href="AuthorGuide.html">Author's Guidelines</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="Program-Schedule.html">Program Schedule</a></li>
+                    <!-- <li><a href="about.html">About</a></li> -->
                     <li><a href="#">Committee</a>
 
                         <ul class="nav-dropdown">
                             <li><a href="Technical-Committee.html" target="_blank" rel="noopener noreferrer">Technical Program Committee</a></li>
                             <li><a href="Organizing-Committee.html">Organizing Committee</a></li>
-                            <!--<li><a href="Program-Committee.html">Program Committee</a></li>-->
-
                         </ul>
                     </li>
+
+
+                    <li><a href="#">Call for Papers</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="Foundational-Research.html">Foundational Research</a></li>
+                            <li><a href="Systems-Research.html">Systems Research</a>
+                            </li>
+                            <li><a href="Applications.html">Applications</a></li>
+                            <li><a href="AuthorGuide.html">Author's Guidelines</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Program-Schedule.html">Program Schedule</a></li>
+
+
+                    <li><a href="#">Workshops</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="smartcity.html">Smart City Stack workshop</a></li>
+                            <li><a href="girlgeekhack.html">GirlGeekHack'23 (Mangalore Subsection Edition)</a></li>
+                            <li><a href="studentcongress.html">CS Student Congress</a></li>
+                        </ul></li>
+
+
                     <li><a href="speakers.html">Speakers</a></li>
                     <li><a href="venue.html">Venue</a></li>
                     <!-- <li><a href="ticket.html">Tickets</a></li> -->
                     <li><a href="contact.html">Contact</a></li>
+                    
+                        <li><a href="#">Archives</a>
 
-                    <li><a href="#">Archives</a>
-
-                        <ul class="nav-dropdown">
-                            <li><a href="2022.html">2022</a></li>
-                        
-
-                        </ul>
-                        </li>
-                    <!--<li><a href="#">For Authors</a>
-
-                        <ul class="nav-dropdown">
-                            <li><a href="accepted-papers.html">Accepted Papers</a></li>
-                            <li><a href="final-camera-ready-guidelines.html">Final Camera Ready Guidelines</a></li>
-
-                        </ul>
-                        </li>-->
+                            <ul class="nav-dropdown">
+                                <li><a href="2022.html">2022</a></li>
+                            </ul>
+                            </li>
                     <li><a href="registration.html">Registration</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
@@ -148,6 +209,16 @@
             </div>
         </div>
     </section>
+
+    <div class="col-md-10">
+        
+        <b style="text-align: center; font-size: 30px;">ICDDS 2023 Schedule</b>
+
+        
+        <br>
+
+        <iframe src="https://drive.google.com/file/d/136GBjAPGn9e0dHgyM0rZbCzxiVGG3v1w/preview" width="100%" height="600px"></iframe>
+    </div>  
     <!-- Banner Section end -->
 
    
@@ -158,7 +229,7 @@
         
         
         ICDDS 2022 Schedule
-        <iframe class="pdfviewer" src="https://drive.google.com/file/d/1_alHFuca-8EQBVxeSwynmEhUT2uYukXl/preview" width="100%" height="720px" allow="autoplay"></iframe>
+        <iframe class="pdfviewer" src="https://drive.google.com/file/d/136GBjAPGn9e0dHgyM0rZbCzxiVGG3v1w/view?usp=sharing" width="100%" height="720px" allow="autoplay"></iframe>
     
        
         </div>
@@ -181,7 +252,7 @@
         </div>
     </div>-->
 
-    <h1 style="text-align: center; margin-top: 2%;">Details to be shared soon!</h1>
+    
 
     <!-- Footer Starts-->
     <!-- Footer Start -->

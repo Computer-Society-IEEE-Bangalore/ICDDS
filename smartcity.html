@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Speeaker | ICDDS</title>
+    <title>SMART CITY STACK AND DEVOPS | ICDDS</title>
     <meta
       name="keywords"
       content="International Conference on Data Decision and Systems, ICDDS 2023, ieeecsbc, IEEE COMPUTER SOCIETY BANGALORE CHAPTER, "
@@ -44,6 +44,73 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .para {
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      .table-container {
+  overflow-x: auto;
+}
+
+table {
+margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    border: 0;
+  }
+  
+  table thead {
+    display: none;
+  }
+  
+  table, table tbody, table tr, table td {
+    display: block;
+    width: 100%;
+  }
+  
+  table tr {
+    margin-bottom: 15px;
+  }
+  
+  table td {
+    text-align: right;
+    padding-left: 50%;
+    text-align: right;
+    position: relative;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+    </style>
   </head>
 
   <body>
@@ -83,6 +150,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <!-- Header Start -->
     <header id="header">
       <div class="container-fluid">
@@ -167,17 +235,18 @@
           <div class="col-md-12">
             <div class="row">
               <div class="col-md-6">
-                <h1 class="banner-header">Speakers</h1>
+                <h1 class="banner-header">Smart City Stack and Devops</h1>
               </div>
               <div class="col-md-6">
                 <p class="banner-nav">
+                  <!-- <img src="img/logo.png" class="logo" width="150px"> -->
                   <img
                     src="img/IEEE-CS-BangaloreChapterOrange.png"
                     width="190px"
                   /><br />
                   <span class="banner-box">
                     <a href="index.html">Home</a>
-                    <a href="speakers.html">Speakers</a>
+                    <a href="smartcity.html">Smart City Stack and Devops</a>
                   </span>
                 </p>
               </div>
@@ -187,52 +256,123 @@
       </div>
     </section>
     <!-- Banner Section end -->
-    <!-- 2022 Speakers Content starts-->
-    <!-- Contact Section Start -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-header">
-                <center>
-                    <h3>Speakers</h3>
-                </center>
-            </div>
-            <div class="row">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-8">
+        <p class="para">
+          <b style="font-size: 30px">Title of the workshop</b><br />
+          Smart City Stack and Devops
+        </p>
 
-                <div class="col-md-10">
-                    <section id="indexspeaker">
-                        <div class="container">
-                            <header class="section-header">
-                                <h3>ICDDS 2023 Keynote Speakers</h3>
-                            </header>
-                            <div class="image-holder">
-                                 <div>
-                                    <img src="img/snehansu.png" width="250px" height="250px">
-                                    <p class="commitee-names">Snehanshu Saha</p>
-                                    <p class="position">BITS PILANI K K Birla Goa Campus</p>
-                                </div>
-                                <div>
-                                    <img src="img/caleb.jpeg" width="250px" height="250px">
-                                    <p class="commitee-names">Dr. Caleb Ronald Munigety</p>
-                                    <p class="position">Head, Mobility Think-tank, Bosch, India</p>
-                                </div>
+        <p class="para">
+          <b style="font-size: 30px">About Workshop</b><br />
+          The proposed hands-on workshop is planned in two parts. The first part
+          will walk the audience through the general smart city stack being used
+          in IUDX. The second part will take an audience through the complete
+          Devops lifecycle from creating containers, testing and deployment of
+          the containers. As the workshop is intended as a hands-on workshop,
+          the audience is advised to bring their own laptops with linux based
+          distro installed. Please keep checking the website for other
+          prerequisite installation needed.
+        </p>
 
+        <p class="para">
+         <b style="font-size: 30px;">Tentative Content</b><br>
+         <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Serial No.</th>
+                  <th>Title</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Introduction to mentor and Workshop</td>
+                  <td>10 mins</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Introduction to Smart City Stack (IUDX)</td>
+                  <td>15 mins</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>IUDX Architecture, Introduction to smart city stack components</td>
+                  <td>50 mins</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Introduction to Devops, hands on session</td>
+                  <td>2 hrs</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Careers and Conclusion</td>
+                  <td>20 mins</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </p>
+        <p class="para">
+          <b style="font-size:30px ;">Bio:</b><br>
+          <img src="img/abhilash.png" alt="Avatar" style="width:50%;height:300px;"><br>
+          <b>Abhilash V, Lead Engineer - IUDX FSID IISc Bangalore</b><br>
+          Abhilash works as lead Devops Engineer at Indian Urban Data Exchange, working primarily on container and cloud based technologies .He also works on Enclave based privacy enhancing technology (PET) at IUDX research division.
 
+        <br>
+        He loves Linux, Computer Networks, Security, privacy and anything in Systems in general.  He is a Free and Open Source (FOSS), and privacy  evangelist. He contributes to several meetups including FOSS meetups, Null community meetups etc. 
+        <br>
+        He holds B.Tech in Information technology from National Institute of Technology, Karnataka
 
-                            </div>
+India Urban Data Exchange (IUDX) is a transformative initiative of the Ministry of Housing and Urban Affairs, Government of India to provide a data exchange platform to Indian cities. IUDX serves as a seamless interface for data providers and data users, including Urban Local Bodies, to share, request, and access datasets related to cities, urban governance, and urban service delivery. The platform has been initiated by the Smart Cities Mission and is implemented by the Indian Institute of Science (IISc), Bengaluru. 
 
-                        </div>
-                    </section>
-                    <br>
-                    
-                    </section>
-                </div>
-                
-            </div>
-        </div>
+            <br>
+            IUDX is completely open source, based on an underlying framework of open standard APIs, data models, and the security, privacy and accounting mechanisms that will facilitate its easy adoption across the digital ecosystem. At present it holds datasets across more than 35 cities catering 9 different domains 
 
-    </section>
-    <!-- Contact Section end -->
+        </p>
 
+        <p class="para">
+
+            <img src="img/jyotirmoy dutta.jpeg" alt="Avatar" style="width:40%;height:300px;"><br>
+            <b>Dr. Jyotirmoy Dutta, Specialist Scientist, IUDX FSID IISc Bangalore.</b><br>
+            
+          </p>
+        <br />
+ 
+        <!-- <center><a class="submitbtn" href="https://cmt3.research.microsoft.com/ICDDS2022" target="_blank">Submit Application</a></center> -->
+        <br /><br />
+      </div>
+      <div class="col-md-2">
+        <br />
+        <center><h2 style="font-size: x-large">Sponsors</h2></center>
+        <img
+          class="partners"
+          src="img/boeing.png"
+          alt="Boeing LOGO"
+          width="100%"
+          height="150px"
+        />
+      </div>
+      <!--<div class="col-md-2">
+      <br>
+      <center><h2 style="font-size: x-large;">Sponsors</h2>
+      <img class="img-fluid" src="img/dozee.png"  alt="DOZEE LOGO"/>
+      <img class="partners" src="img/boeing.png" alt="Boeing LOGO" width="170" height="150px"/>
+      <br><br>
+      <h2 style="font-size: larger;">Academic Partners</h2>
+      <img class="img-fluid" src="img/APPCAIR LOGO.jpg" alt="APPCAIR LOGO" />
+      <img class="img-fluid" src="img/BITS PILANI GOA LOGO.jpg" alt="BITS PILANI GOA LOGO" />
+      <img class="img-fluid" src="img/BMS LOGO.jpg"  alt="BMSCE LOGO"/>
+      <img class="img-fluid" src="img/RV LOGO.jpg" alt="RVCE LOGO" />
+      <img class="img-fluid" src="img/VVCE LOGO.jpg"  alt="VVCE LOGO"/>
+      <img class="img-fluid" src="img/MAHE-logo-high-res.jpg" alt="MAHE LOGO"/>
+      </center>
+    </div>-->
+    </div>
     <!-- Footer Start -->
     <!-- Footer Start -->
     <footer id="footer">
