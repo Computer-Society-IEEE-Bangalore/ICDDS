@@ -1,0 +1,62 @@
+.bg-img-reg{
+    width: 100%;
+    height: 60vh;
+    z-index: -10;
+}
+
+.table-container {
+    margin: 20px;
+}
+
+table{
+      border: none;
+    width: 70%;
+    margin: 2rem 12rem;
+    margin-top: 5rem;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    font-family: "Montserrat";
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+  }
+
+  th{
+    font-weight: 700 !important;
+  }
+  
+  td > div {
+    margin-bottom: 6px;
+  }
+  .col-inner{
+    width: 50%;
+    margin: 5px;
+    padding: 2px 30px;
+    border: none;
+  }
+  .nested{
+    margin-left: 0;
+  }
+  .auth{
+    margin-top: 30px;
+  }
+
+  .main{
+    float: left;
+    margin: 2px 50px;
+  }
+  @media (max-width: 600px) {
+    .bg-img-reg{
+        width: 700px;
+        z-index: -10;
+        height: 35vh;
+    }
+    table{
+        width: fit-content;
+        margin: 130px 0;
+    }
+  }
+  

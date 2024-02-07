@@ -1,0 +1,41 @@
+#footer {
+    position: relative;
+    background: #ffffff;
+    padding: 0 0 30px 0;
+    text-align: center;
+    font-family: "Montserrat";
+  }
+  
+  #footer .footer-top {
+    background: #ffffff;
+    padding: 45px 0;
+  }
+  
+  #footer .footer-top .social-links a {
+    margin: 0 10px;
+    margin-top: 2rem;
+    display: inline-block;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    transition: all 0.3s;
+  }
+  
+  @media (max-width: 575.98px) {
+    #footer .footer-top .social-links a {
+      margin: 0 2px;
+      font-size: 20px;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+    }
+  }
+  
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
