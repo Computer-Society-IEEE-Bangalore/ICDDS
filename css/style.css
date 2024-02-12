@@ -1021,8 +1021,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 575.98px) {
   #agenda h2 {
-    font-size: 20px;
+    font-size: 80px;
     font-weight: 400;
+  }
+  #agenda {
+    margin: 0 1rem;
+    width: 90%;
+    padding: 10% 5% 5% 0; /* Adjusted padding for smaller screens */
+  }
+  
+  .org-img {
+    margin-left: 50px;
+    width: 300px !important; /* Adjusted width for smaller screens */
+    height: 350px !important; /* Adjusted width for smaller screens */
+    max-width: none; /* Removed max-width for smaller screens */
+    height: auto; /* Added to maintain aspect ratio */
+  }
+  .commitee-names{
+    font-size: 23px !important;
+  }
+  .position{
+    font-size: 18px;
   }
 }
 
