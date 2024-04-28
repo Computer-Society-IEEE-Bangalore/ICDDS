@@ -152,9 +152,9 @@ h6 {
 
 
 .container1{  
-    width: 100%;
+    width: 120%;
     height: 500px;
-    margin: auto;
+    margin: 1% -10%;
     display: flex;
 
 }
@@ -332,7 +332,87 @@ h6 {
   background: #ffffff;
   color: #d2691e;
 }
+/* ================================================= */
+/* ---------------- Important dates ----------------- */
+/* ================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.imp-dates{
+  background: transparent;
+  /* background-color: #00a8e8; */
+  border: 5px solid black;
+  width: 60%;
+  margin: 0 35%;
+  /* border-radius: 10px; */
+  padding: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 
+/* .imp-dates::before{
+  content: "";
+  position: absolute;
+  background-color: rgb(73, 99, 231) !important;
+  z-index: -2;
+} */
+.imp{
+  color: #FB8122;
+  font-weight: 900;
+  font-size: 2.8rem;
+  font-family: "Lato", "Lucida Console", Monaco, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit{
+  color: #FFF;
+border: 2px solid #FB8122;
+border-radius: 0px;
+padding: 10px 36px;
+display: inline-block;
+color: black;
+margin: 0 25%;
+margin: 10px 10rem !important;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 14px;
+letter-spacing: 1px;
+cursor: pointer;
+box-shadow: inset 0 0 0 0 #FB8122;
+-webkit-transition: ease-out 0.4s;
+-moz-transition: ease-out 0.4s;
+transition: ease-out 0.4s;
+}
+
+.submit:hover{
+  box-shadow: inset 0 100px 0 0 #FB8122;
+}
+.sub-cap{
+  align-items: center;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 960px) {
+  .imp{
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imp-dates {
+    text-align: justify;
+    width: 100%;
+    margin: 20px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.submit{
+    margin: 0 25%;
+}
+}
 /* ================================================= */
 /* ---------------- Banner Section ----------------- */
 /* ================================================= */
@@ -794,10 +874,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 30px 15px 0 15px;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 #about .about-des .about-des-col {
   margin-bottom: 30px;
   padding-bottom: 30px;
   background: #d2691e;
+  font-size: 20px;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #about .about-des p {
@@ -846,6 +934,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speaker .img-cols,
 #speaker .content-cols {
   padding: 0;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 #speaker .img-col,
@@ -1722,6 +1816,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .para{
   margin-top:2%;
+  font-size: 18px;
   /* margin-left:10%;
   margin-right:10%; */
 }
