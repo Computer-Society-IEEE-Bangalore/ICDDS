@@ -1956,6 +1956,34 @@ body.mobile-nav-active #mobile-nav-toggle {
   /* height: 200px; */
   border-radius: 5px 5px 0 0;
 }
+ @media (max-width: 768px) {
+  .card {
+    width: 70% !important;
+      padding: 0px;
+  }
+
+  .para {
+      font-size: 1em;
+  }
+
+  .imp {
+      font-size: 1.3em;
+  }
+}
+
+/*@media (max-width: 480px) {
+  .card {
+      padding: 10px;
+  }
+
+  .para {
+      font-size: 0.3em !important;
+  }
+
+  .imp {
+      font-size: 0.8em;
+  }
+} */
 
 .containerhome{
   /* padding: 8px 16px; */
