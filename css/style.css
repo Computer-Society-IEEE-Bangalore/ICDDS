@@ -1712,7 +1712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 40rem;
   margin: auto;
   padding: 1rem;
-  margin-right: 13%;
+  margin-right: 12%;
 }
 
 #card:hover {
@@ -1723,7 +1723,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #card:active {
   transform: scale(0.95) rotateZ(1.7deg);
 }
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   #card{
     margin-right: 10%;
   }
