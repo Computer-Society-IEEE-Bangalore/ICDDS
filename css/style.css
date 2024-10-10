@@ -898,7 +898,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  margin-top: 50px;
+  margin-top: 170px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -1688,7 +1688,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #card {
-
   box-sizing: border-box;
   height: 304px;
   width: 30%;
@@ -1707,7 +1706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   user-select: none;
   font-weight: bolder;
   color: black;
-  height: auto;
+  /* height: auto;  */
   width: 90%;
   max-width: 40rem;
   margin: auto;
@@ -1731,6 +1730,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767.98px) {
   #card{
     margin-right: 5%;
+    height: 47rem !important;
   }
 }
 /* ================================================= */
@@ -2056,8 +2056,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .accept-btn {
-  width: 170px;
-  padding: 10px;
+  width: 20rem;
+  padding: 0;
   background: rgba(217, 217, 217, 0.58) !important;
   border: none;
   border-radius: 5px;
@@ -2091,6 +2091,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   .accept-btn {
     width: 100%;
-    padding: 12px;
+    padding: 0;
   }
+  #accept-btn-reg {
+    width: 90%;
+    padding: 0;
+  }
+}
+#author-instructions{
+  text-decoration: underline !important;
+    color: inherit !important;
+    outline: none !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer !important;
 }
