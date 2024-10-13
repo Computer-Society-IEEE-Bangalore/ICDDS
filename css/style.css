@@ -753,11 +753,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
 }
 
-#card {
-  margin-top: 10px;
-  height: 400px;
-  margin: auto;
-}
 
 .section-header h3 {
   font-size: 45px;
@@ -885,6 +880,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 575.98px) {
   #about .about-des {
     padding: 30px 15px 0 15px;
+    margin-top: 7rem;
   }
 }
 
@@ -1690,6 +1686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #card {
   box-sizing: border-box;
   height: 304px;
+  margin-top: 10px;
   width: 30%;
   background: rgba(217, 217, 217, 0.58);
   border: 1px solid white;
@@ -1706,7 +1703,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   user-select: none;
   font-weight: bolder;
   color: black;
-  /* height: auto;  */
+  height: auto; 
+  position: relative;
   width: 90%;
   max-width: 40rem;
   margin: auto;
@@ -1730,7 +1728,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767.98px) {
   #card{
     margin-right: 5%;
-    height: 47rem !important;
+    height: auto;
   }
 }
 /* ================================================= */
@@ -2056,7 +2054,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .accept-btn {
-  width: 20rem;
+  width: 18rem;
   padding: 0;
   background: rgba(217, 217, 217, 0.58) !important;
   border: none;
@@ -2065,7 +2063,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-align: center;
-  display: inline-block;
+  display: block;
+  bottom: -2%;
   font-family: 'Arial', sans-serif;
 }
 
