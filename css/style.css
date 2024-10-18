@@ -475,7 +475,7 @@ h6 {
     margin: 30px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #fff;
     letter-spacing: 1px;
   }
@@ -1779,6 +1779,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .banner .banner-header,
   .banner .banner-nav {
+    height: auto;
+    padding: 20px 0;
     text-align: center;
   }
 
@@ -1912,7 +1914,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   .logo {
     width: 35%;
-
   }
 }
 
