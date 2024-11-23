@@ -2133,3 +2133,69 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 !important;
     cursor: pointer !important;
 }
+
+.schedule-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-title {
+  color: #000000;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.schedule-description {
+  color: #3d3223;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.schedule-button-container {
+  text-align: center;
+}
+
+.schedule-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #d2691e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.schedule-button:hover {
+  background: #d2691e;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(235, 235, 235, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .schedule-section {
+      margin: 1rem;
+      padding: 1.5rem;
+  }
+
+  .schedule-title {
+      font-size: 1.5rem;
+  }
+
+  .schedule-description {
+      font-size: 1rem;
+  }
+
+  .schedule-button {
+      padding: 0.8rem 1.5rem;
+  }
+}
