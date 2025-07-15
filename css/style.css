@@ -586,13 +586,13 @@ h6 {
 }
 
 .nav-menu a {
-  font-family: "Roboto Slab", serif;
+   font-family: "Roboto Slab", serif;
   padding: 15px 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px; 
   text-transform: uppercase;
   outline: none;
 }
