@@ -431,11 +431,14 @@ h6 {
   background-size: cover;
   padding: 200px 0 25px 0;
   position: relative;
+  min-height: 450px; /* Add minimum height */
+  height: auto !important; /* Override fixed height */
 }
 
 @media (max-width: 767.98px) {
   .banner {
     padding: 120px 0 25px 0;
+    height: auto !important;
   }
 }
 
@@ -468,6 +471,15 @@ h6 {
   font-size: 40px;
   color: #fff;
   letter-spacing: 1px;
+  padding: 0 15px; /* Add padding */
+  word-wrap: break-word; /* Handle long words */
+}
+
+.banner1-header1 img {
+  max-width: 120px; /* Limit image size */
+  height: auto;
+  margin: 5px !important; /* Reduce margins */
+  vertical-align: middle;
 }
 
 .conference-info {
@@ -2301,6 +2313,74 @@ body.mobile-nav-active #mobile-nav-toggle {
   .speaker-card img {
       width: 150px;
       height: 150px;
+  }
+}
+
+/* Update container1 and card styles for better mobile spacing */
+.container1 {
+  width: 100%;
+  height: auto;
+  margin: 1% 0;
+  display: flex;
+  margin-bottom: 20px; /* Reduced from 35px */
+}
+
+#card {
+  box-sizing: border-box;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  height: auto;
+  width: 90%;
+  max-width: 40rem;
+  margin: 80px auto 20px; /* Adjusted margins */
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  #card {
+    width: 90%;
+    margin: 40px auto 10px; /* Reduced margins */
+    padding: 0.8rem;
+    z-index: 0;
+  }
+  
+  .container1 {
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  #about .about-des {
+    padding-top: 10px; /* Reduced padding */
+  }
+}
+
+@media (max-width: 575px) {
+  #card {
+    width: 95%;
+    margin: 20px auto 10px; /* Further reduced margins */
+    padding: 0.5rem;
+    box-shadow: 8px 12px 36px rgba(0, 0, 0, 0.18);
+  }
+  
+  .container1 {
+    padding: 0 10px;
+  }
+
+  #about .about-des {
+    margin-top: 20px; /* Reduced margin */
   }
 }
 
