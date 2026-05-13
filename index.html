@@ -419,8 +419,8 @@
     <!-- Footer Starts-->
     <!-- Footer Start -->
     <footer id="footer">
-            <div style="margin: 40px 0 0 0; padding: 20px; background: #f9f9f9; border-radius: 8px; font-size: 16px;">
-                <strong>Acknowledgment:</strong> The <a href="https://cmt3.research.microsoft.com/" target="_blank" style="color: #d2691e; text-decoration: underline; cursor: pointer;">Microsoft CMT</a> service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+            <div id="cmt-ack" style="margin: 40px 0 0 0; padding: 20px; background: #f9f9f9; border-radius: 8px; font-size: 16px;">
+                <strong>Acknowledgment:</strong> The <a href="https://cmt3.research.microsoft.com/" target="_blank" style="color: #d2691e; text-decoration: underline; cursor: pointer; pointer-events: auto;">Microsoft CMT</a> service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
             </div>
             <div class="footer-top">
             <div class="container">
@@ -468,8 +468,22 @@
     <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
     <script src="vendor/touchSwipe/jquery.touchSwipe.min.js"></script>
 
-    <!-- Main Javascript File -->
-    <script src="js/main.js"></script>
+        <!-- Main Javascript File -->
+        <script src="js/main.js"></script>
+        <script>
+            // Always show the acknowledgment div and ensure link is clickable
+            document.addEventListener('DOMContentLoaded', function() {
+                var ack = document.getElementById('cmt-ack');
+                if (ack) {
+                    ack.style.display = 'block';
+                    var link = ack.querySelector('a');
+                    if (link) {
+                        link.style.pointerEvents = 'auto';
+                        link.style.cursor = 'pointer';
+                    }
+                }
+            });
+        </script>
 
 </body>
 
