@@ -19,7 +19,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -84,13 +84,55 @@
         $('#header').addClass('header-scrolled');
     }
 
+    // Auto-hide navbar on scroll
+    var lastScrollTop = 0;
+    var navbarHeight = $('#header').outerHeight();
+    var scrollTimeout;
+    var isMouseNearTop = false;
+
+    $(window).on('scroll', function () {
+        clearTimeout(scrollTimeout);
+        var currentScroll = $(this).scrollTop();
+        var header = $('#header');
+
+        // Hide navbar when scrolling down
+        if (currentScroll > lastScrollTop && currentScroll > navbarHeight) {
+            header.addClass('navbar-hidden');
+        } else {
+            // Show navbar when scrolling up or near top
+            header.removeClass('navbar-hidden');
+        }
+
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    });
+
+    // Show navbar when mouse moves to top of screen
+    $(document).on('mousemove', function (e) {
+        if (e.pageY < 50) {
+            $('#header').removeClass('navbar-hidden');
+            isMouseNearTop = true;
+        } else {
+            isMouseNearTop = false;
+        }
+    });
+
+    // Hide navbar if user scrolls down after mouse leaves top area
+    $(window).on('scroll', function () {
+        if (!isMouseNearTop && $(this).scrollTop() > navbarHeight) {
+            var currentScroll = $(this).scrollTop();
+            if (currentScroll > lastScrollTop) {
+                $('#header').addClass('navbar-hidden');
+            }
+        }
+    });
+
     // Intro carousel
     var introCarousel = $(".carousel");
     var introCarouselIndicators = $(".carousel-indicators");
     introCarousel.find(".carousel-inner").children(".carousel-item").each(function (index) {
         (index === 0) ?
-                introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>") :
-                introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "'></li>");
+            introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "' class='active'></li>") :
+            introCarouselIndicators.append("<li data-target='#introCarousel' data-slide-to='" + index + "'></li>");
 
         $(this).css("background-image", "url('" + $(this).children('.carousel-background').children('img').attr('src') + "')");
         $(this).children('.carousel-background').remove();
